@@ -1,0 +1,22 @@
+{
+  "_doc": "Every model assumption lives here. IDs (A1..) match docs/METHODOLOGY.md section 4.",
+  "base_year": 2025,
+  "labor_start": 1619,
+  "labor_end": 1865,
+  "labor_participation": 0.65,
+  "labor_participation_range": [0.55, 0.75],
+  "hours_per_worker_year": 3000,
+  "hours_range": [2500, 3500],
+  "wage_anchor_years": [1850, 1870],
+  "wage_multiplier": 1.0,
+  "maintenance_share_deducted": 0.0,
+  "real_rates": [0.0, 0.005, 0.01, 0.015, 0.02, 0.025, 0.03, 0.035, 0.04, 0.05, 0.06],
+  "default_rate": 0.03,
+  "land_tiers_order": ["corp_nonfamily", "partnership_and_family_corp", "family_individual", "other_nonfederal_land"],
+  "exclude_from_purchase": ["federal land", "other_trust_tribal_institutional (includes American Indian reservation farmland)"],
+  "lives_lost": {
+    "vsl_usd_2025": 14200000,
+    "vsl_source": "US DOT, Departmental Guidance on Valuation of a Statistical Life, value for 2025 base year",
+    "working_years_lost": 30
+  }
+}

@@ -1,0 +1,7 @@
+# Render Blueprint: deploys this folder as a free static site (no server, no build).
+services:
+  - type: web
+    name: ct69-a1-reparations
+    runtime: static
+    buildCommand: echo "static site, no build"
+    staticPublishPath: .

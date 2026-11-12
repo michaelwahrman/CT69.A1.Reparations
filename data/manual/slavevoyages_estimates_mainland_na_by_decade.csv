@@ -1,0 +1,26 @@
+# Source: SlaveVoyages Trans-Atlantic Slave Trade - Estimates (legacy.slavevoyages.org/assessment/estimates), retrieved 2026-11-12.
+# Query: all flags, 1501-1866; rows = 10-year periods; columns = specific disembarkation regions; cells = embarked/disembarked.
+# Only the five Mainland North America sub-regions are kept here. Figures are SlaveVoyages' imputed ESTIMATES (not only documented voyages).
+# "embarked" = people put aboard in Africa on voyages that disembarked in that region; embarked - disembarked = deaths in the Middle Passage.
+period,northern_us_emb,northern_us_dis,chesapeake_emb,chesapeake_dis,carolinas_georgia_emb,carolinas_georgia_dis,gulf_states_emb,gulf_states_dis,usa_unspecified_emb,usa_unspecified_dis
+1621-1630,0,0,141,100,0,0,0,0,0,0
+1651-1660,505,434,911,630,0,0,0,0,0,0
+1661-1670,861,682,2361,1607,0,0,0,0,0,0
+1671-1680,66,56,3064,2399,0,0,0,0,0,0
+1681-1690,453,193,2887,2228,0,0,0,0,189,133
+1691-1700,1730,1461,6788,5223,0,0,0,0,0,0
+1701-1710,120,96,16000,12808,256,227,0,0,0,0
+1711-1720,1002,823,11735,9025,2724,2223,612,607,0,0
+1721-1730,1002,709,26606,21588,9419,7851,7223,6386,355,304
+1731-1740,7040,5725,34490,28374,33401,27860,0,0,272,222
+1741-1750,6723,5521,14849,12094,3644,2982,260,222,366,325
+1751-1760,6228,5140,17882,14589,27606,22856,444,362,0,0
+1761-1770,6472,5367,15900,12953,34254,28044,386,327,0,0
+1771-1780,176,149,4599,3874,30127,24905,2722,2256,0,0
+1781-1790,0,0,136,106,15589,13363,945,829,0,0
+1791-1800,309,260,0,0,15599,13085,933,672,439,371
+1801-1810,417,338,78,68,79947,66682,6864,5733,187,157
+1811-1820,0,0,0,0,112,95,5027,4190,367,350
+1821-1830,0,0,0,0,0,0,105,91,0,0
+1851-1860,0,0,0,0,350,303,126,110,0,0
+Totals,33104,26954,158427,127666,253028,210476,25647,21785,2175,1862

@@ -1,0 +1,13 @@
+# Source: US Census Office, Population of the United States in 1860 (8th Census), Introduction, p. viii,
+#   table "Census of slaves and free colored". PDF: https://www2.census.gov/library/publications/decennial/1860/population/1860a-02.pdf
+#   (scanned; PDF page index 6). Hand-transcribed 2026-11-12 from a rendered image of the page.
+# These are the OFFICIAL national totals used to check the per-state series (QA check T3).
+year,slaves,free_colored
+1790,697897,59466
+1800,893041,108395
+1810,1191364,186446
+1820,1538038,233524
+1830,2009043,319599
+1840,2487455,386303
+1850,3204313,434449
+1860,3953760,487970

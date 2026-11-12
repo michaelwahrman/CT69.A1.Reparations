@@ -1,0 +1,3513 @@
+state,year,enslaved
+Alabama,1800,494.0
+Alabama,1801,701.1
+Alabama,1802,908.2
+Alabama,1803,1115.3
+Alabama,1804,1322.4
+Alabama,1805,1529.5
+Alabama,1806,1736.6
+Alabama,1807,1943.7
+Alabama,1808,2150.8
+Alabama,1809,2357.9
+Alabama,1810,2565.0
+Alabama,1811,6496.4
+Alabama,1812,10427.8
+Alabama,1813,14359.2
+Alabama,1814,18290.6
+Alabama,1815,22222.0
+Alabama,1816,26153.4
+Alabama,1817,30084.8
+Alabama,1818,34016.2
+Alabama,1819,37947.6
+Alabama,1820,41879.0
+Alabama,1821,49446.0
+Alabama,1822,57013.0
+Alabama,1823,64580.0
+Alabama,1824,72147.0
+Alabama,1825,79714.0
+Alabama,1826,87281.0
+Alabama,1827,94848.0
+Alabama,1828,102415.0
+Alabama,1829,109982.0
+Alabama,1830,117549.0
+Alabama,1831,131147.3
+Alabama,1832,144745.6
+Alabama,1833,158343.9
+Alabama,1834,171942.2
+Alabama,1835,185540.5
+Alabama,1836,199138.8
+Alabama,1837,212737.1
+Alabama,1838,226335.4
+Alabama,1839,239933.7
+Alabama,1840,253532.0
+Alabama,1841,262463.2
+Alabama,1842,271394.4
+Alabama,1843,280325.6
+Alabama,1844,289256.8
+Alabama,1845,298188.0
+Alabama,1846,307119.2
+Alabama,1847,316050.4
+Alabama,1848,324981.6
+Alabama,1849,333912.8
+Alabama,1850,342844.0
+Alabama,1851,352067.6
+Alabama,1852,361291.2
+Alabama,1853,370514.8
+Alabama,1854,379738.4
+Alabama,1855,388962.0
+Alabama,1856,398185.6
+Alabama,1857,407409.2
+Alabama,1858,416632.8
+Alabama,1859,425856.4
+Alabama,1860,435080.0
+Alabama,1861,435080.0
+Alabama,1862,435080.0
+Alabama,1863,435080.0
+Alabama,1864,435080.0
+Alabama,1865,435080.0
+Arkansas,1810,136.0
+Arkansas,1811,284.1
+Arkansas,1812,432.2
+Arkansas,1813,580.3
+Arkansas,1814,728.4
+Arkansas,1815,876.5
+Arkansas,1816,1024.6
+Arkansas,1817,1172.7
+Arkansas,1818,1320.8
+Arkansas,1819,1468.9
+Arkansas,1820,1617.0
+Arkansas,1821,1912.9
+Arkansas,1822,2208.8
+Arkansas,1823,2504.7
+Arkansas,1824,2800.6
+Arkansas,1825,3096.5
+Arkansas,1826,3392.4
+Arkansas,1827,3688.3
+Arkansas,1828,3984.2
+Arkansas,1829,4280.1
+Arkansas,1830,4576.0
+Arkansas,1831,6111.9
+Arkansas,1832,7647.8
+Arkansas,1833,9183.7
+Arkansas,1834,10719.6
+Arkansas,1835,12255.5
+Arkansas,1836,13791.4
+Arkansas,1837,15327.3
+Arkansas,1838,16863.2
+Arkansas,1839,18399.1
+Arkansas,1840,19935.0
+Arkansas,1841,22651.5
+Arkansas,1842,25368.0
+Arkansas,1843,28084.5
+Arkansas,1844,30801.0
+Arkansas,1845,33517.5
+Arkansas,1846,36234.0
+Arkansas,1847,38950.5
+Arkansas,1848,41667.0
+Arkansas,1849,44383.5
+Arkansas,1850,47100.0
+Arkansas,1851,53501.5
+Arkansas,1852,59903.0
+Arkansas,1853,66304.5
+Arkansas,1854,72706.0
+Arkansas,1855,79107.5
+Arkansas,1856,85509.0
+Arkansas,1857,91910.5
+Arkansas,1858,98312.0
+Arkansas,1859,104713.5
+Arkansas,1860,111115.0
+Arkansas,1861,111115.0
+Arkansas,1862,111115.0
+Arkansas,1863,111115.0
+Arkansas,1864,111115.0
+Arkansas,1865,111115.0
+Connecticut,1640,15.0
+Connecticut,1641,15.5
+Connecticut,1642,16.0
+Connecticut,1643,16.5
+Connecticut,1644,17.0
+Connecticut,1645,17.5
+Connecticut,1646,18.0
+Connecticut,1647,18.5
+Connecticut,1648,19.0
+Connecticut,1649,19.5
+Connecticut,1650,20.0
+Connecticut,1651,20.5
+Connecticut,1652,21.0
+Connecticut,1653,21.5
+Connecticut,1654,22.0
+Connecticut,1655,22.5
+Connecticut,1656,23.0
+Connecticut,1657,23.5
+Connecticut,1658,24.0
+Connecticut,1659,24.5
+Connecticut,1660,25.0
+Connecticut,1661,26.0
+Connecticut,1662,27.0
+Connecticut,1663,28.0
+Connecticut,1664,29.0
+Connecticut,1665,30.0
+Connecticut,1666,31.0
+Connecticut,1667,32.0
+Connecticut,1668,33.0
+Connecticut,1669,34.0
+Connecticut,1670,35.0
+Connecticut,1671,36.5
+Connecticut,1672,38.0
+Connecticut,1673,39.5
+Connecticut,1674,41.0
+Connecticut,1675,42.5
+Connecticut,1676,44.0
+Connecticut,1677,45.5
+Connecticut,1678,47.0
+Connecticut,1679,48.5
+Connecticut,1680,50.0
+Connecticut,1681,65.0
+Connecticut,1682,80.0
+Connecticut,1683,95.0
+Connecticut,1684,110.0
+Connecticut,1685,125.0
+Connecticut,1686,140.0
+Connecticut,1687,155.0
+Connecticut,1688,170.0
+Connecticut,1689,185.0
+Connecticut,1690,200.0
+Connecticut,1691,225.0
+Connecticut,1692,250.0
+Connecticut,1693,275.0
+Connecticut,1694,300.0
+Connecticut,1695,325.0
+Connecticut,1696,350.0
+Connecticut,1697,375.0
+Connecticut,1698,400.0
+Connecticut,1699,425.0
+Connecticut,1700,450.0
+Connecticut,1701,480.0
+Connecticut,1702,510.0
+Connecticut,1703,540.0
+Connecticut,1704,570.0
+Connecticut,1705,600.0
+Connecticut,1706,630.0
+Connecticut,1707,660.0
+Connecticut,1708,690.0
+Connecticut,1709,720.0
+Connecticut,1710,750.0
+Connecticut,1711,784.3
+Connecticut,1712,818.6
+Connecticut,1713,852.9
+Connecticut,1714,887.2
+Connecticut,1715,921.5
+Connecticut,1716,955.8
+Connecticut,1717,990.1
+Connecticut,1718,1024.4
+Connecticut,1719,1058.7
+Connecticut,1720,1093.0
+Connecticut,1721,1132.7
+Connecticut,1722,1172.4
+Connecticut,1723,1212.1
+Connecticut,1724,1251.8
+Connecticut,1725,1291.5
+Connecticut,1726,1331.2
+Connecticut,1727,1370.9
+Connecticut,1728,1410.6
+Connecticut,1729,1450.3
+Connecticut,1730,1490.0
+Connecticut,1731,1600.8
+Connecticut,1732,1711.6
+Connecticut,1733,1822.4
+Connecticut,1734,1933.2
+Connecticut,1735,2044.0
+Connecticut,1736,2154.8
+Connecticut,1737,2265.6
+Connecticut,1738,2376.4
+Connecticut,1739,2487.2
+Connecticut,1740,2598.0
+Connecticut,1741,2639.2
+Connecticut,1742,2680.4
+Connecticut,1743,2721.6
+Connecticut,1744,2762.8
+Connecticut,1745,2804.0
+Connecticut,1746,2845.2
+Connecticut,1747,2886.4
+Connecticut,1748,2927.6
+Connecticut,1749,2968.8
+Connecticut,1750,3010.0
+Connecticut,1751,3087.3
+Connecticut,1752,3164.6
+Connecticut,1753,3241.9
+Connecticut,1754,3319.2
+Connecticut,1755,3396.5
+Connecticut,1756,3473.8
+Connecticut,1757,3551.1
+Connecticut,1758,3628.4
+Connecticut,1759,3705.7
+Connecticut,1760,3783.0
+Connecticut,1761,3974.5
+Connecticut,1762,4166.0
+Connecticut,1763,4357.5
+Connecticut,1764,4549.0
+Connecticut,1765,4740.5
+Connecticut,1766,4932.0
+Connecticut,1767,5123.5
+Connecticut,1768,5315.0
+Connecticut,1769,5506.5
+Connecticut,1770,5698.0
+Connecticut,1771,5716.7
+Connecticut,1772,5735.4
+Connecticut,1773,5754.1
+Connecticut,1774,5772.8
+Connecticut,1775,5791.5
+Connecticut,1776,5810.2
+Connecticut,1777,5828.9
+Connecticut,1778,5847.6
+Connecticut,1779,5866.3
+Connecticut,1780,5885.0
+Connecticut,1781,5561.3
+Connecticut,1782,5237.6
+Connecticut,1783,4913.9
+Connecticut,1784,4590.2
+Connecticut,1785,4266.5
+Connecticut,1786,3942.8
+Connecticut,1787,3619.1
+Connecticut,1788,3295.4
+Connecticut,1789,2971.7
+Connecticut,1790,2648.0
+Connecticut,1791,2478.3
+Connecticut,1792,2308.6
+Connecticut,1793,2138.9
+Connecticut,1794,1969.2
+Connecticut,1795,1799.5
+Connecticut,1796,1629.8
+Connecticut,1797,1460.1
+Connecticut,1798,1290.4
+Connecticut,1799,1120.7
+Connecticut,1800,951.0
+Connecticut,1801,886.9
+Connecticut,1802,822.8
+Connecticut,1803,758.7
+Connecticut,1804,694.6
+Connecticut,1805,630.5
+Connecticut,1806,566.4
+Connecticut,1807,502.3
+Connecticut,1808,438.2
+Connecticut,1809,374.1
+Connecticut,1810,310.0
+Connecticut,1811,288.7
+Connecticut,1812,267.4
+Connecticut,1813,246.1
+Connecticut,1814,224.8
+Connecticut,1815,203.5
+Connecticut,1816,182.2
+Connecticut,1817,160.9
+Connecticut,1818,139.6
+Connecticut,1819,118.3
+Connecticut,1820,97.0
+Connecticut,1821,89.8
+Connecticut,1822,82.6
+Connecticut,1823,75.4
+Connecticut,1824,68.2
+Connecticut,1825,61.0
+Connecticut,1826,53.8
+Connecticut,1827,46.6
+Connecticut,1828,39.4
+Connecticut,1829,32.2
+Connecticut,1830,25.0
+Connecticut,1831,27.9
+Connecticut,1832,30.8
+Connecticut,1833,33.7
+Connecticut,1834,36.6
+Connecticut,1835,39.5
+Connecticut,1836,42.4
+Connecticut,1837,45.3
+Connecticut,1838,48.2
+Connecticut,1839,51.1
+Connecticut,1840,54.0
+Connecticut,1841,48.6
+Connecticut,1842,43.2
+Connecticut,1843,37.8
+Connecticut,1844,32.4
+Connecticut,1845,27.0
+Connecticut,1846,21.6
+Connecticut,1847,16.2
+Connecticut,1848,10.8
+Connecticut,1849,5.4
+Delaware,1650,15.0
+Delaware,1651,16.5
+Delaware,1652,18.0
+Delaware,1653,19.5
+Delaware,1654,21.0
+Delaware,1655,22.5
+Delaware,1656,24.0
+Delaware,1657,25.5
+Delaware,1658,27.0
+Delaware,1659,28.5
+Delaware,1660,30.0
+Delaware,1661,31.0
+Delaware,1662,32.0
+Delaware,1663,33.0
+Delaware,1664,34.0
+Delaware,1665,35.0
+Delaware,1666,36.0
+Delaware,1667,37.0
+Delaware,1668,38.0
+Delaware,1669,39.0
+Delaware,1670,40.0
+Delaware,1671,41.5
+Delaware,1672,43.0
+Delaware,1673,44.5
+Delaware,1674,46.0
+Delaware,1675,47.5
+Delaware,1676,49.0
+Delaware,1677,50.5
+Delaware,1678,52.0
+Delaware,1679,53.5
+Delaware,1680,55.0
+Delaware,1681,57.7
+Delaware,1682,60.4
+Delaware,1683,63.1
+Delaware,1684,65.8
+Delaware,1685,68.5
+Delaware,1686,71.2
+Delaware,1687,73.9
+Delaware,1688,76.6
+Delaware,1689,79.3
+Delaware,1690,82.0
+Delaware,1691,87.3
+Delaware,1692,92.6
+Delaware,1693,97.9
+Delaware,1694,103.2
+Delaware,1695,108.5
+Delaware,1696,113.8
+Delaware,1697,119.1
+Delaware,1698,124.4
+Delaware,1699,129.7
+Delaware,1700,135.0
+Delaware,1701,171.5
+Delaware,1702,208.0
+Delaware,1703,244.5
+Delaware,1704,281.0
+Delaware,1705,317.5
+Delaware,1706,354.0
+Delaware,1707,390.5
+Delaware,1708,427.0
+Delaware,1709,463.5
+Delaware,1710,500.0
+Delaware,1711,520.0
+Delaware,1712,540.0
+Delaware,1713,560.0
+Delaware,1714,580.0
+Delaware,1715,600.0
+Delaware,1716,620.0
+Delaware,1717,640.0
+Delaware,1718,660.0
+Delaware,1719,680.0
+Delaware,1720,700.0
+Delaware,1721,677.8
+Delaware,1722,655.6
+Delaware,1723,633.4
+Delaware,1724,611.2
+Delaware,1725,589.0
+Delaware,1726,566.8
+Delaware,1727,544.6
+Delaware,1728,522.4
+Delaware,1729,500.2
+Delaware,1730,478.0
+Delaware,1731,533.7
+Delaware,1732,589.4
+Delaware,1733,645.1
+Delaware,1734,700.8
+Delaware,1735,756.5
+Delaware,1736,812.2
+Delaware,1737,867.9
+Delaware,1738,923.6
+Delaware,1739,979.3
+Delaware,1740,1035.0
+Delaware,1741,1081.1
+Delaware,1742,1127.2
+Delaware,1743,1173.3
+Delaware,1744,1219.4
+Delaware,1745,1265.5
+Delaware,1746,1311.6
+Delaware,1747,1357.7
+Delaware,1748,1403.8
+Delaware,1749,1449.9
+Delaware,1750,1496.0
+Delaware,1751,1519.7
+Delaware,1752,1543.4
+Delaware,1753,1567.1
+Delaware,1754,1590.8
+Delaware,1755,1614.5
+Delaware,1756,1638.2
+Delaware,1757,1661.9
+Delaware,1758,1685.6
+Delaware,1759,1709.3
+Delaware,1760,1733.0
+Delaware,1761,1743.3
+Delaware,1762,1753.6
+Delaware,1763,1763.9
+Delaware,1764,1774.2
+Delaware,1765,1784.5
+Delaware,1766,1794.8
+Delaware,1767,1805.1
+Delaware,1768,1815.4
+Delaware,1769,1825.7
+Delaware,1770,1836.0
+Delaware,1771,1952.0
+Delaware,1772,2068.0
+Delaware,1773,2184.0
+Delaware,1774,2300.0
+Delaware,1775,2416.0
+Delaware,1776,2532.0
+Delaware,1777,2648.0
+Delaware,1778,2764.0
+Delaware,1779,2880.0
+Delaware,1780,2996.0
+Delaware,1781,3585.1
+Delaware,1782,4174.2
+Delaware,1783,4763.3
+Delaware,1784,5352.4
+Delaware,1785,5941.5
+Delaware,1786,6530.6
+Delaware,1787,7119.7
+Delaware,1788,7708.8
+Delaware,1789,8297.9
+Delaware,1790,8887.0
+Delaware,1791,8613.6
+Delaware,1792,8340.2
+Delaware,1793,8066.8
+Delaware,1794,7793.4
+Delaware,1795,7520.0
+Delaware,1796,7246.6
+Delaware,1797,6973.2
+Delaware,1798,6699.8
+Delaware,1799,6426.4
+Delaware,1800,6153.0
+Delaware,1801,5955.4
+Delaware,1802,5757.8
+Delaware,1803,5560.2
+Delaware,1804,5362.6
+Delaware,1805,5165.0
+Delaware,1806,4967.4
+Delaware,1807,4769.8
+Delaware,1808,4572.2
+Delaware,1809,4374.6
+Delaware,1810,4177.0
+Delaware,1811,4210.2
+Delaware,1812,4243.4
+Delaware,1813,4276.6
+Delaware,1814,4309.8
+Delaware,1815,4343.0
+Delaware,1816,4376.2
+Delaware,1817,4409.4
+Delaware,1818,4442.6
+Delaware,1819,4475.8
+Delaware,1820,4509.0
+Delaware,1821,4387.3
+Delaware,1822,4265.6
+Delaware,1823,4143.9
+Delaware,1824,4022.2
+Delaware,1825,3900.5
+Delaware,1826,3778.8
+Delaware,1827,3657.1
+Delaware,1828,3535.4
+Delaware,1829,3413.7
+Delaware,1830,3292.0
+Delaware,1831,3223.3
+Delaware,1832,3154.6
+Delaware,1833,3085.9
+Delaware,1834,3017.2
+Delaware,1835,2948.5
+Delaware,1836,2879.8
+Delaware,1837,2811.1
+Delaware,1838,2742.4
+Delaware,1839,2673.7
+Delaware,1840,2605.0
+Delaware,1841,2573.5
+Delaware,1842,2542.0
+Delaware,1843,2510.5
+Delaware,1844,2479.0
+Delaware,1845,2447.5
+Delaware,1846,2416.0
+Delaware,1847,2384.5
+Delaware,1848,2353.0
+Delaware,1849,2321.5
+Delaware,1850,2290.0
+Delaware,1851,2240.8
+Delaware,1852,2191.6
+Delaware,1853,2142.4
+Delaware,1854,2093.2
+Delaware,1855,2044.0
+Delaware,1856,1994.8
+Delaware,1857,1945.6
+Delaware,1858,1896.4
+Delaware,1859,1847.2
+Delaware,1860,1798.0
+Delaware,1861,1798.0
+Delaware,1862,1798.0
+Delaware,1863,1798.0
+Delaware,1864,1798.0
+Delaware,1865,1798.0
+District of Columbia,1800,2072.0
+District of Columbia,1801,2220.2
+District of Columbia,1802,2368.4
+District of Columbia,1803,2516.6
+District of Columbia,1804,2664.8
+District of Columbia,1805,2813.0
+District of Columbia,1806,2961.2
+District of Columbia,1807,3109.4
+District of Columbia,1808,3257.6
+District of Columbia,1809,3405.8
+District of Columbia,1810,3554.0
+District of Columbia,1811,3650.6
+District of Columbia,1812,3747.2
+District of Columbia,1813,3843.8
+District of Columbia,1814,3940.4
+District of Columbia,1815,4037.0
+District of Columbia,1816,4133.6
+District of Columbia,1817,4230.2
+District of Columbia,1818,4326.8
+District of Columbia,1819,4423.4
+District of Columbia,1820,4520.0
+District of Columbia,1821,4518.5
+District of Columbia,1822,4517.0
+District of Columbia,1823,4515.5
+District of Columbia,1824,4514.0
+District of Columbia,1825,4512.5
+District of Columbia,1826,4511.0
+District of Columbia,1827,4509.5
+District of Columbia,1828,4508.0
+District of Columbia,1829,4506.5
+District of Columbia,1830,4505.0
+District of Columbia,1831,4386.5
+District of Columbia,1832,4268.0
+District of Columbia,1833,4149.5
+District of Columbia,1834,4031.0
+District of Columbia,1835,3912.5
+District of Columbia,1836,3794.0
+District of Columbia,1837,3675.5
+District of Columbia,1838,3557.0
+District of Columbia,1839,3438.5
+District of Columbia,1840,3320.0
+District of Columbia,1841,3356.7
+District of Columbia,1842,3393.4
+District of Columbia,1843,3430.1
+District of Columbia,1844,3466.8
+District of Columbia,1845,3503.5
+District of Columbia,1846,3540.2
+District of Columbia,1847,3576.9
+District of Columbia,1848,3613.6
+District of Columbia,1849,3650.3
+District of Columbia,1850,3687.0
+District of Columbia,1851,3636.8
+District of Columbia,1852,3586.6
+District of Columbia,1853,3536.4
+District of Columbia,1854,3486.2
+District of Columbia,1855,3436.0
+District of Columbia,1856,3385.8
+District of Columbia,1857,3335.6
+District of Columbia,1858,3285.4
+District of Columbia,1859,3235.2
+District of Columbia,1860,3185.0
+District of Columbia,1861,3185.0
+District of Columbia,1862,3185.0
+District of Columbia,1863,3185.0
+District of Columbia,1864,3185.0
+District of Columbia,1865,3185.0
+Florida,1830,15501.0
+Florida,1831,16522.6
+Florida,1832,17544.2
+Florida,1833,18565.8
+Florida,1834,19587.4
+Florida,1835,20609.0
+Florida,1836,21630.6
+Florida,1837,22652.2
+Florida,1838,23673.8
+Florida,1839,24695.4
+Florida,1840,25717.0
+Florida,1841,27076.3
+Florida,1842,28435.6
+Florida,1843,29794.9
+Florida,1844,31154.2
+Florida,1845,32513.5
+Florida,1846,33872.8
+Florida,1847,35232.1
+Florida,1848,36591.4
+Florida,1849,37950.7
+Florida,1850,39310.0
+Florida,1851,41553.5
+Florida,1852,43797.0
+Florida,1853,46040.5
+Florida,1854,48284.0
+Florida,1855,50527.5
+Florida,1856,52771.0
+Florida,1857,55014.5
+Florida,1858,57258.0
+Florida,1859,59501.5
+Florida,1860,61745.0
+Florida,1861,61745.0
+Florida,1862,61745.0
+Florida,1863,61745.0
+Florida,1864,61745.0
+Florida,1865,61745.0
+Georgia,1750,1000.0
+Georgia,1751,1257.8
+Georgia,1752,1515.6
+Georgia,1753,1773.4
+Georgia,1754,2031.2
+Georgia,1755,2289.0
+Georgia,1756,2546.8
+Georgia,1757,2804.6
+Georgia,1758,3062.4
+Georgia,1759,3320.2
+Georgia,1760,3578.0
+Georgia,1761,4282.7
+Georgia,1762,4987.4
+Georgia,1763,5692.1
+Georgia,1764,6396.8
+Georgia,1765,7101.5
+Georgia,1766,7806.2
+Georgia,1767,8510.9
+Georgia,1768,9215.6
+Georgia,1769,9920.3
+Georgia,1770,10625.0
+Georgia,1771,11645.6
+Georgia,1772,12666.2
+Georgia,1773,13686.8
+Georgia,1774,14707.4
+Georgia,1775,15728.0
+Georgia,1776,16748.6
+Georgia,1777,17769.2
+Georgia,1778,18789.8
+Georgia,1779,19810.4
+Georgia,1780,20831.0
+Georgia,1781,21674.3
+Georgia,1782,22517.6
+Georgia,1783,23360.9
+Georgia,1784,24204.2
+Georgia,1785,25047.5
+Georgia,1786,25890.8
+Georgia,1787,26734.1
+Georgia,1788,27577.4
+Georgia,1789,28420.7
+Georgia,1790,29264.0
+Georgia,1791,32307.5
+Georgia,1792,35351.0
+Georgia,1793,38394.5
+Georgia,1794,41438.0
+Georgia,1795,44481.5
+Georgia,1796,47525.0
+Georgia,1797,50568.5
+Georgia,1798,53612.0
+Georgia,1799,56655.5
+Georgia,1800,59699.0
+Georgia,1801,64250.9
+Georgia,1802,68802.8
+Georgia,1803,73354.7
+Georgia,1804,77906.6
+Georgia,1805,82458.5
+Georgia,1806,87010.4
+Georgia,1807,91562.3
+Georgia,1808,96114.2
+Georgia,1809,100666.1
+Georgia,1810,105218.0
+Georgia,1811,109661.8
+Georgia,1812,114105.6
+Georgia,1813,118549.4
+Georgia,1814,122993.2
+Georgia,1815,127437.0
+Georgia,1816,131880.8
+Georgia,1817,136324.6
+Georgia,1818,140768.4
+Georgia,1819,145212.2
+Georgia,1820,149656.0
+Georgia,1821,156443.5
+Georgia,1822,163231.0
+Georgia,1823,170018.5
+Georgia,1824,176806.0
+Georgia,1825,183593.5
+Georgia,1826,190381.0
+Georgia,1827,197168.5
+Georgia,1828,203956.0
+Georgia,1829,210743.5
+Georgia,1830,217531.0
+Georgia,1831,223872.3
+Georgia,1832,230213.6
+Georgia,1833,236554.9
+Georgia,1834,242896.2
+Georgia,1835,249237.5
+Georgia,1836,255578.8
+Georgia,1837,261920.1
+Georgia,1838,268261.4
+Georgia,1839,274602.7
+Georgia,1840,280944.0
+Georgia,1841,291017.8
+Georgia,1842,301091.6
+Georgia,1843,311165.4
+Georgia,1844,321239.2
+Georgia,1845,331313.0
+Georgia,1846,341386.8
+Georgia,1847,351460.6
+Georgia,1848,361534.4
+Georgia,1849,371608.2
+Georgia,1850,381682.0
+Georgia,1851,389733.6
+Georgia,1852,397785.2
+Georgia,1853,405836.8
+Georgia,1854,413888.4
+Georgia,1855,421940.0
+Georgia,1856,429991.6
+Georgia,1857,438043.2
+Georgia,1858,446094.8
+Georgia,1859,454146.4
+Georgia,1860,462198.0
+Georgia,1861,462198.0
+Georgia,1862,462198.0
+Georgia,1863,462198.0
+Georgia,1864,462198.0
+Georgia,1865,462198.0
+Illinois,1800,107.0
+Illinois,1801,113.1
+Illinois,1802,119.2
+Illinois,1803,125.3
+Illinois,1804,131.4
+Illinois,1805,137.5
+Illinois,1806,143.6
+Illinois,1807,149.7
+Illinois,1808,155.8
+Illinois,1809,161.9
+Illinois,1810,168.0
+Illinois,1811,242.9
+Illinois,1812,317.8
+Illinois,1813,392.7
+Illinois,1814,467.6
+Illinois,1815,542.5
+Illinois,1816,617.4
+Illinois,1817,692.3
+Illinois,1818,767.2
+Illinois,1819,842.1
+Illinois,1820,917.0
+Illinois,1821,900.0
+Illinois,1822,883.0
+Illinois,1823,866.0
+Illinois,1824,849.0
+Illinois,1825,832.0
+Illinois,1826,815.0
+Illinois,1827,798.0
+Illinois,1828,781.0
+Illinois,1829,764.0
+Illinois,1830,747.0
+Illinois,1831,705.4
+Illinois,1832,663.8
+Illinois,1833,622.2
+Illinois,1834,580.6
+Illinois,1835,539.0
+Illinois,1836,497.4
+Illinois,1837,455.8
+Illinois,1838,414.2
+Illinois,1839,372.6
+Illinois,1840,331.0
+Illinois,1841,297.9
+Illinois,1842,264.8
+Illinois,1843,231.7
+Illinois,1844,198.6
+Illinois,1845,165.5
+Illinois,1846,132.4
+Illinois,1847,99.3
+Illinois,1848,66.2
+Illinois,1849,33.1
+Indiana,1800,28.0
+Indiana,1801,48.9
+Indiana,1802,69.8
+Indiana,1803,90.7
+Indiana,1804,111.6
+Indiana,1805,132.5
+Indiana,1806,153.4
+Indiana,1807,174.3
+Indiana,1808,195.2
+Indiana,1809,216.1
+Indiana,1810,237.0
+Indiana,1811,232.3
+Indiana,1812,227.6
+Indiana,1813,222.9
+Indiana,1814,218.2
+Indiana,1815,213.5
+Indiana,1816,208.8
+Indiana,1817,204.1
+Indiana,1818,199.4
+Indiana,1819,194.7
+Indiana,1820,190.0
+Indiana,1821,171.3
+Indiana,1822,152.6
+Indiana,1823,133.9
+Indiana,1824,115.2
+Indiana,1825,96.5
+Indiana,1826,77.8
+Indiana,1827,59.1
+Indiana,1828,40.4
+Indiana,1829,21.7
+Indiana,1830,3.0
+Indiana,1831,3.0
+Indiana,1832,3.0
+Indiana,1833,3.0
+Indiana,1834,3.0
+Indiana,1835,3.0
+Indiana,1836,3.0
+Indiana,1837,3.0
+Indiana,1838,3.0
+Indiana,1839,3.0
+Indiana,1840,3.0
+Indiana,1841,2.7
+Indiana,1842,2.4
+Indiana,1843,2.1
+Indiana,1844,1.8
+Indiana,1845,1.5
+Indiana,1846,1.2
+Indiana,1847,0.9
+Indiana,1848,0.6
+Indiana,1849,0.3
+Iowa,1840,16.0
+Iowa,1841,14.4
+Iowa,1842,12.8
+Iowa,1843,11.2
+Iowa,1844,9.6
+Iowa,1845,8.0
+Iowa,1846,6.4
+Iowa,1847,4.8
+Iowa,1848,3.2
+Iowa,1849,1.6
+Kansas,1860,2.0
+Kansas,1861,2.0
+Kansas,1862,2.0
+Kansas,1863,2.0
+Kansas,1864,2.0
+Kansas,1865,2.0
+Kentucky,1770,2500.0
+Kentucky,1771,2970.0
+Kentucky,1772,3440.0
+Kentucky,1773,3910.0
+Kentucky,1774,4380.0
+Kentucky,1775,4850.0
+Kentucky,1776,5320.0
+Kentucky,1777,5790.0
+Kentucky,1778,6260.0
+Kentucky,1779,6730.0
+Kentucky,1780,7200.0
+Kentucky,1781,7723.0
+Kentucky,1782,8246.0
+Kentucky,1783,8769.0
+Kentucky,1784,9292.0
+Kentucky,1785,9815.0
+Kentucky,1786,10338.0
+Kentucky,1787,10861.0
+Kentucky,1788,11384.0
+Kentucky,1789,11907.0
+Kentucky,1790,12430.0
+Kentucky,1791,15221.3
+Kentucky,1792,18012.6
+Kentucky,1793,20803.9
+Kentucky,1794,23595.2
+Kentucky,1795,26386.5
+Kentucky,1796,29177.8
+Kentucky,1797,31969.1
+Kentucky,1798,34760.4
+Kentucky,1799,37551.7
+Kentucky,1800,40343.0
+Kentucky,1801,44364.8
+Kentucky,1802,48386.6
+Kentucky,1803,52408.4
+Kentucky,1804,56430.2
+Kentucky,1805,60452.0
+Kentucky,1806,64473.8
+Kentucky,1807,68495.6
+Kentucky,1808,72517.4
+Kentucky,1809,76539.2
+Kentucky,1810,80561.0
+Kentucky,1811,85178.1
+Kentucky,1812,89795.2
+Kentucky,1813,94412.3
+Kentucky,1814,99029.4
+Kentucky,1815,103646.5
+Kentucky,1816,108263.6
+Kentucky,1817,112880.7
+Kentucky,1818,117497.8
+Kentucky,1819,122114.9
+Kentucky,1820,126732.0
+Kentucky,1821,130580.1
+Kentucky,1822,134428.2
+Kentucky,1823,138276.3
+Kentucky,1824,142124.4
+Kentucky,1825,145972.5
+Kentucky,1826,149820.6
+Kentucky,1827,153668.7
+Kentucky,1828,157516.8
+Kentucky,1829,161364.9
+Kentucky,1830,165213.0
+Kentucky,1831,166917.5
+Kentucky,1832,168622.0
+Kentucky,1833,170326.5
+Kentucky,1834,172031.0
+Kentucky,1835,173735.5
+Kentucky,1836,175440.0
+Kentucky,1837,177144.5
+Kentucky,1838,178849.0
+Kentucky,1839,180553.5
+Kentucky,1840,182258.0
+Kentucky,1841,185130.3
+Kentucky,1842,188002.6
+Kentucky,1843,190874.9
+Kentucky,1844,193747.2
+Kentucky,1845,196619.5
+Kentucky,1846,199491.8
+Kentucky,1847,202364.1
+Kentucky,1848,205236.4
+Kentucky,1849,208108.7
+Kentucky,1850,210981.0
+Kentucky,1851,212431.2
+Kentucky,1852,213881.4
+Kentucky,1853,215331.6
+Kentucky,1854,216781.8
+Kentucky,1855,218232.0
+Kentucky,1856,219682.2
+Kentucky,1857,221132.4
+Kentucky,1858,222582.6
+Kentucky,1859,224032.8
+Kentucky,1860,225483.0
+Kentucky,1861,225483.0
+Kentucky,1862,225483.0
+Kentucky,1863,225483.0
+Kentucky,1864,225483.0
+Kentucky,1865,225483.0
+Louisiana,1810,34660.0
+Louisiana,1811,38100.4
+Louisiana,1812,41540.8
+Louisiana,1813,44981.2
+Louisiana,1814,48421.6
+Louisiana,1815,51862.0
+Louisiana,1816,55302.4
+Louisiana,1817,58742.8
+Louisiana,1818,62183.2
+Louisiana,1819,65623.6
+Louisiana,1820,69064.0
+Louisiana,1821,73116.4
+Louisiana,1822,77168.8
+Louisiana,1823,81221.2
+Louisiana,1824,85273.6
+Louisiana,1825,89326.0
+Louisiana,1826,93378.4
+Louisiana,1827,97430.8
+Louisiana,1828,101483.2
+Louisiana,1829,105535.6
+Louisiana,1830,109588.0
+Louisiana,1831,115474.4
+Louisiana,1832,121360.8
+Louisiana,1833,127247.2
+Louisiana,1834,133133.6
+Louisiana,1835,139020.0
+Louisiana,1836,144906.4
+Louisiana,1837,150792.8
+Louisiana,1838,156679.2
+Louisiana,1839,162565.6
+Louisiana,1840,168452.0
+Louisiana,1841,176087.7
+Louisiana,1842,183723.4
+Louisiana,1843,191359.1
+Louisiana,1844,198994.8
+Louisiana,1845,206630.5
+Louisiana,1846,214266.2
+Louisiana,1847,221901.9
+Louisiana,1848,229537.6
+Louisiana,1849,237173.3
+Louisiana,1850,244809.0
+Louisiana,1851,253500.7
+Louisiana,1852,262192.4
+Louisiana,1853,270884.1
+Louisiana,1854,279575.8
+Louisiana,1855,288267.5
+Louisiana,1856,296959.2
+Louisiana,1857,305650.9
+Louisiana,1858,314342.6
+Louisiana,1859,323034.3
+Louisiana,1860,331726.0
+Louisiana,1861,331726.0
+Louisiana,1862,331726.0
+Louisiana,1863,331726.0
+Louisiana,1864,331726.0
+Louisiana,1865,331726.0
+Maine,1760,300.0
+Maine,1761,317.5
+Maine,1762,335.0
+Maine,1763,352.5
+Maine,1764,370.0
+Maine,1765,387.5
+Maine,1766,405.0
+Maine,1767,422.5
+Maine,1768,440.0
+Maine,1769,457.5
+Maine,1770,475.0
+Maine,1771,473.3
+Maine,1772,471.6
+Maine,1773,469.9
+Maine,1774,468.2
+Maine,1775,466.5
+Maine,1776,464.8
+Maine,1777,463.1
+Maine,1778,461.4
+Maine,1779,459.7
+Maine,1780,458.0
+Maine,1781,412.2
+Maine,1782,366.4
+Maine,1783,320.6
+Maine,1784,274.8
+Maine,1785,229.0
+Maine,1786,183.2
+Maine,1787,137.4
+Maine,1788,91.6
+Maine,1789,45.8
+Maine,1821,0.2
+Maine,1822,0.4
+Maine,1823,0.6
+Maine,1824,0.8
+Maine,1825,1.0
+Maine,1826,1.2
+Maine,1827,1.4
+Maine,1828,1.6
+Maine,1829,1.8
+Maine,1830,2.0
+Maine,1831,1.8
+Maine,1832,1.6
+Maine,1833,1.4
+Maine,1834,1.2
+Maine,1835,1.0
+Maine,1836,0.8
+Maine,1837,0.6
+Maine,1838,0.4
+Maine,1839,0.2
+Maryland,1640,20.0
+Maryland,1641,48.0
+Maryland,1642,76.0
+Maryland,1643,104.0
+Maryland,1644,132.0
+Maryland,1645,160.0
+Maryland,1646,188.0
+Maryland,1647,216.0
+Maryland,1648,244.0
+Maryland,1649,272.0
+Maryland,1650,300.0
+Maryland,1651,345.8
+Maryland,1652,391.6
+Maryland,1653,437.4
+Maryland,1654,483.2
+Maryland,1655,529.0
+Maryland,1656,574.8
+Maryland,1657,620.6
+Maryland,1658,666.4
+Maryland,1659,712.2
+Maryland,1660,758.0
+Maryland,1661,801.2
+Maryland,1662,844.4
+Maryland,1663,887.6
+Maryland,1664,930.8
+Maryland,1665,974.0
+Maryland,1666,1017.2
+Maryland,1667,1060.4
+Maryland,1668,1103.6
+Maryland,1669,1146.8
+Maryland,1670,1190.0
+Maryland,1671,1232.1
+Maryland,1672,1274.2
+Maryland,1673,1316.3
+Maryland,1674,1358.4
+Maryland,1675,1400.5
+Maryland,1676,1442.6
+Maryland,1677,1484.7
+Maryland,1678,1526.8
+Maryland,1679,1568.9
+Maryland,1680,1611.0
+Maryland,1681,1666.1
+Maryland,1682,1721.2
+Maryland,1683,1776.3
+Maryland,1684,1831.4
+Maryland,1685,1886.5
+Maryland,1686,1941.6
+Maryland,1687,1996.7
+Maryland,1688,2051.8
+Maryland,1689,2106.9
+Maryland,1690,2162.0
+Maryland,1691,2268.5
+Maryland,1692,2375.0
+Maryland,1693,2481.5
+Maryland,1694,2588.0
+Maryland,1695,2694.5
+Maryland,1696,2801.0
+Maryland,1697,2907.5
+Maryland,1698,3014.0
+Maryland,1699,3120.5
+Maryland,1700,3227.0
+Maryland,1701,3698.8
+Maryland,1702,4170.6
+Maryland,1703,4642.4
+Maryland,1704,5114.2
+Maryland,1705,5586.0
+Maryland,1706,6057.8
+Maryland,1707,6529.6
+Maryland,1708,7001.4
+Maryland,1709,7473.2
+Maryland,1710,7945.0
+Maryland,1711,8400.4
+Maryland,1712,8855.8
+Maryland,1713,9311.2
+Maryland,1714,9766.6
+Maryland,1715,10222.0
+Maryland,1716,10677.4
+Maryland,1717,11132.8
+Maryland,1718,11588.2
+Maryland,1719,12043.6
+Maryland,1720,12499.0
+Maryland,1721,12971.1
+Maryland,1722,13443.2
+Maryland,1723,13915.3
+Maryland,1724,14387.4
+Maryland,1725,14859.5
+Maryland,1726,15331.6
+Maryland,1727,15803.7
+Maryland,1728,16275.8
+Maryland,1729,16747.9
+Maryland,1730,17220.0
+Maryland,1731,17901.1
+Maryland,1732,18582.2
+Maryland,1733,19263.3
+Maryland,1734,19944.4
+Maryland,1735,20625.5
+Maryland,1736,21306.6
+Maryland,1737,21987.7
+Maryland,1738,22668.8
+Maryland,1739,23349.9
+Maryland,1740,24031.0
+Maryland,1741,25972.9
+Maryland,1742,27914.8
+Maryland,1743,29856.7
+Maryland,1744,31798.6
+Maryland,1745,33740.5
+Maryland,1746,35682.4
+Maryland,1747,37624.3
+Maryland,1748,39566.2
+Maryland,1749,41508.1
+Maryland,1750,43450.0
+Maryland,1751,44005.4
+Maryland,1752,44560.8
+Maryland,1753,45116.2
+Maryland,1754,45671.6
+Maryland,1755,46227.0
+Maryland,1756,46782.4
+Maryland,1757,47337.8
+Maryland,1758,47893.2
+Maryland,1759,48448.6
+Maryland,1760,49004.0
+Maryland,1761,50485.4
+Maryland,1762,51966.8
+Maryland,1763,53448.2
+Maryland,1764,54929.6
+Maryland,1765,56411.0
+Maryland,1766,57892.4
+Maryland,1767,59373.8
+Maryland,1768,60855.2
+Maryland,1769,62336.6
+Maryland,1770,63818.0
+Maryland,1771,65487.7
+Maryland,1772,67157.4
+Maryland,1773,68827.1
+Maryland,1774,70496.8
+Maryland,1775,72166.5
+Maryland,1776,73836.2
+Maryland,1777,75505.9
+Maryland,1778,77175.6
+Maryland,1779,78845.3
+Maryland,1780,80515.0
+Maryland,1781,82767.1
+Maryland,1782,85019.2
+Maryland,1783,87271.3
+Maryland,1784,89523.4
+Maryland,1785,91775.5
+Maryland,1786,94027.6
+Maryland,1787,96279.7
+Maryland,1788,98531.8
+Maryland,1789,100783.9
+Maryland,1790,103036.0
+Maryland,1791,103295.9
+Maryland,1792,103555.8
+Maryland,1793,103815.7
+Maryland,1794,104075.6
+Maryland,1795,104335.5
+Maryland,1796,104595.4
+Maryland,1797,104855.3
+Maryland,1798,105115.2
+Maryland,1799,105375.1
+Maryland,1800,105635.0
+Maryland,1801,106221.7
+Maryland,1802,106808.4
+Maryland,1803,107395.1
+Maryland,1804,107981.8
+Maryland,1805,108568.5
+Maryland,1806,109155.2
+Maryland,1807,109741.9
+Maryland,1808,110328.6
+Maryland,1809,110915.3
+Maryland,1810,111502.0
+Maryland,1811,111091.6
+Maryland,1812,110681.2
+Maryland,1813,110270.8
+Maryland,1814,109860.4
+Maryland,1815,109450.0
+Maryland,1816,109039.6
+Maryland,1817,108629.2
+Maryland,1818,108218.8
+Maryland,1819,107808.4
+Maryland,1820,107398.0
+Maryland,1821,106957.6
+Maryland,1822,106517.2
+Maryland,1823,106076.8
+Maryland,1824,105636.4
+Maryland,1825,105196.0
+Maryland,1826,104755.6
+Maryland,1827,104315.2
+Maryland,1828,103874.8
+Maryland,1829,103434.4
+Maryland,1830,102994.0
+Maryland,1831,101668.3
+Maryland,1832,100342.6
+Maryland,1833,99016.9
+Maryland,1834,97691.2
+Maryland,1835,96365.5
+Maryland,1836,95039.8
+Maryland,1837,93714.1
+Maryland,1838,92388.4
+Maryland,1839,91062.7
+Maryland,1840,89737.0
+Maryland,1841,89800.1
+Maryland,1842,89863.2
+Maryland,1843,89926.3
+Maryland,1844,89989.4
+Maryland,1845,90052.5
+Maryland,1846,90115.6
+Maryland,1847,90178.7
+Maryland,1848,90241.8
+Maryland,1849,90304.9
+Maryland,1850,90368.0
+Maryland,1851,90050.1
+Maryland,1852,89732.2
+Maryland,1853,89414.3
+Maryland,1854,89096.4
+Maryland,1855,88778.5
+Maryland,1856,88460.6
+Maryland,1857,88142.7
+Maryland,1858,87824.8
+Maryland,1859,87506.9
+Maryland,1860,87189.0
+Maryland,1861,87189.0
+Maryland,1862,87189.0
+Maryland,1863,87189.0
+Maryland,1864,87189.0
+Maryland,1865,87189.0
+Massachusetts,1640,150.0
+Massachusetts,1641,164.5
+Massachusetts,1642,179.0
+Massachusetts,1643,193.5
+Massachusetts,1644,208.0
+Massachusetts,1645,222.5
+Massachusetts,1646,237.0
+Massachusetts,1647,251.5
+Massachusetts,1648,266.0
+Massachusetts,1649,280.5
+Massachusetts,1650,295.0
+Massachusetts,1651,307.7
+Massachusetts,1652,320.4
+Massachusetts,1653,333.1
+Massachusetts,1654,345.8
+Massachusetts,1655,358.5
+Massachusetts,1656,371.2
+Massachusetts,1657,383.9
+Massachusetts,1658,396.6
+Massachusetts,1659,409.3
+Massachusetts,1660,422.0
+Massachusetts,1661,395.8
+Massachusetts,1662,369.6
+Massachusetts,1663,343.4
+Massachusetts,1664,317.2
+Massachusetts,1665,291.0
+Massachusetts,1666,264.8
+Massachusetts,1667,238.6
+Massachusetts,1668,212.4
+Massachusetts,1669,186.2
+Massachusetts,1670,160.0
+Massachusetts,1671,161.0
+Massachusetts,1672,162.0
+Massachusetts,1673,163.0
+Massachusetts,1674,164.0
+Massachusetts,1675,165.0
+Massachusetts,1676,166.0
+Massachusetts,1677,167.0
+Massachusetts,1678,168.0
+Massachusetts,1679,169.0
+Massachusetts,1680,170.0
+Massachusetts,1681,193.0
+Massachusetts,1682,216.0
+Massachusetts,1683,239.0
+Massachusetts,1684,262.0
+Massachusetts,1685,285.0
+Massachusetts,1686,308.0
+Massachusetts,1687,331.0
+Massachusetts,1688,354.0
+Massachusetts,1689,377.0
+Massachusetts,1690,400.0
+Massachusetts,1691,440.0
+Massachusetts,1692,480.0
+Massachusetts,1693,520.0
+Massachusetts,1694,560.0
+Massachusetts,1695,600.0
+Massachusetts,1696,640.0
+Massachusetts,1697,680.0
+Massachusetts,1698,720.0
+Massachusetts,1699,760.0
+Massachusetts,1700,800.0
+Massachusetts,1701,851.0
+Massachusetts,1702,902.0
+Massachusetts,1703,953.0
+Massachusetts,1704,1004.0
+Massachusetts,1705,1055.0
+Massachusetts,1706,1106.0
+Massachusetts,1707,1157.0
+Massachusetts,1708,1208.0
+Massachusetts,1709,1259.0
+Massachusetts,1710,1310.0
+Massachusetts,1711,1394.0
+Massachusetts,1712,1478.0
+Massachusetts,1713,1562.0
+Massachusetts,1714,1646.0
+Massachusetts,1715,1730.0
+Massachusetts,1716,1814.0
+Massachusetts,1717,1898.0
+Massachusetts,1718,1982.0
+Massachusetts,1719,2066.0
+Massachusetts,1720,2150.0
+Massachusetts,1721,2213.0
+Massachusetts,1722,2276.0
+Massachusetts,1723,2339.0
+Massachusetts,1724,2402.0
+Massachusetts,1725,2465.0
+Massachusetts,1726,2528.0
+Massachusetts,1727,2591.0
+Massachusetts,1728,2654.0
+Massachusetts,1729,2717.0
+Massachusetts,1730,2780.0
+Massachusetts,1731,2805.5
+Massachusetts,1732,2831.0
+Massachusetts,1733,2856.5
+Massachusetts,1734,2882.0
+Massachusetts,1735,2907.5
+Massachusetts,1736,2933.0
+Massachusetts,1737,2958.5
+Massachusetts,1738,2984.0
+Massachusetts,1739,3009.5
+Massachusetts,1740,3035.0
+Massachusetts,1741,3139.0
+Massachusetts,1742,3243.0
+Massachusetts,1743,3347.0
+Massachusetts,1744,3451.0
+Massachusetts,1745,3555.0
+Massachusetts,1746,3659.0
+Massachusetts,1747,3763.0
+Massachusetts,1748,3867.0
+Massachusetts,1749,3971.0
+Massachusetts,1750,4075.0
+Massachusetts,1751,4124.1
+Massachusetts,1752,4173.2
+Massachusetts,1753,4222.3
+Massachusetts,1754,4271.4
+Massachusetts,1755,4320.5
+Massachusetts,1756,4369.6
+Massachusetts,1757,4418.7
+Massachusetts,1758,4467.8
+Massachusetts,1759,4516.9
+Massachusetts,1760,4566.0
+Massachusetts,1761,4584.8
+Massachusetts,1762,4603.6
+Massachusetts,1763,4622.4
+Massachusetts,1764,4641.2
+Massachusetts,1765,4660.0
+Massachusetts,1766,4678.8
+Massachusetts,1767,4697.6
+Massachusetts,1768,4716.4
+Massachusetts,1769,4735.2
+Massachusetts,1770,4754.0
+Massachusetts,1771,4760.8
+Massachusetts,1772,4767.6
+Massachusetts,1773,4774.4
+Massachusetts,1774,4781.2
+Massachusetts,1775,4788.0
+Massachusetts,1776,4794.8
+Massachusetts,1777,4801.6
+Massachusetts,1778,4808.4
+Massachusetts,1779,4815.2
+Massachusetts,1780,4822.0
+Massachusetts,1781,4339.8
+Massachusetts,1782,3857.6
+Massachusetts,1783,3375.4
+Massachusetts,1784,2893.2
+Massachusetts,1785,2411.0
+Massachusetts,1786,1928.8
+Massachusetts,1787,1446.6
+Massachusetts,1788,964.4
+Massachusetts,1789,482.2
+Massachusetts,1821,0.1
+Massachusetts,1822,0.2
+Massachusetts,1823,0.3
+Massachusetts,1824,0.4
+Massachusetts,1825,0.5
+Massachusetts,1826,0.6
+Massachusetts,1827,0.7
+Massachusetts,1828,0.8
+Massachusetts,1829,0.9
+Massachusetts,1830,1.0
+Massachusetts,1831,0.9
+Massachusetts,1832,0.8
+Massachusetts,1833,0.7
+Massachusetts,1834,0.6
+Massachusetts,1835,0.5
+Massachusetts,1836,0.4
+Massachusetts,1837,0.3
+Massachusetts,1838,0.2
+Massachusetts,1839,0.1
+Michigan,1810,24.0
+Michigan,1811,21.6
+Michigan,1812,19.2
+Michigan,1813,16.8
+Michigan,1814,14.4
+Michigan,1815,12.0
+Michigan,1816,9.6
+Michigan,1817,7.2
+Michigan,1818,4.8
+Michigan,1819,2.4
+Michigan,1821,0.1
+Michigan,1822,0.2
+Michigan,1823,0.3
+Michigan,1824,0.4
+Michigan,1825,0.5
+Michigan,1826,0.6
+Michigan,1827,0.7
+Michigan,1828,0.8
+Michigan,1829,0.9
+Michigan,1830,1.0
+Michigan,1831,0.9
+Michigan,1832,0.8
+Michigan,1833,0.7
+Michigan,1834,0.6
+Michigan,1835,0.5
+Michigan,1836,0.4
+Michigan,1837,0.3
+Michigan,1838,0.2
+Michigan,1839,0.1
+Mississippi,1800,2995.0
+Mississippi,1801,4147.8
+Mississippi,1802,5300.6
+Mississippi,1803,6453.4
+Mississippi,1804,7606.2
+Mississippi,1805,8759.0
+Mississippi,1806,9911.8
+Mississippi,1807,11064.6
+Mississippi,1808,12217.4
+Mississippi,1809,13370.2
+Mississippi,1810,14523.0
+Mississippi,1811,16352.1
+Mississippi,1812,18181.2
+Mississippi,1813,20010.3
+Mississippi,1814,21839.4
+Mississippi,1815,23668.5
+Mississippi,1816,25497.6
+Mississippi,1817,27326.7
+Mississippi,1818,29155.8
+Mississippi,1819,30984.9
+Mississippi,1820,32814.0
+Mississippi,1821,36098.5
+Mississippi,1822,39383.0
+Mississippi,1823,42667.5
+Mississippi,1824,45952.0
+Mississippi,1825,49236.5
+Mississippi,1826,52521.0
+Mississippi,1827,55805.5
+Mississippi,1828,59090.0
+Mississippi,1829,62374.5
+Mississippi,1830,65659.0
+Mississippi,1831,78614.2
+Mississippi,1832,91569.4
+Mississippi,1833,104524.6
+Mississippi,1834,117479.8
+Mississippi,1835,130435.0
+Mississippi,1836,143390.2
+Mississippi,1837,156345.4
+Mississippi,1838,169300.6
+Mississippi,1839,182255.8
+Mississippi,1840,195211.0
+Mississippi,1841,206677.7
+Mississippi,1842,218144.4
+Mississippi,1843,229611.1
+Mississippi,1844,241077.8
+Mississippi,1845,252544.5
+Mississippi,1846,264011.2
+Mississippi,1847,275477.9
+Mississippi,1848,286944.6
+Mississippi,1849,298411.3
+Mississippi,1850,309878.0
+Mississippi,1851,322553.3
+Mississippi,1852,335228.6
+Mississippi,1853,347903.9
+Mississippi,1854,360579.2
+Mississippi,1855,373254.5
+Mississippi,1856,385929.8
+Mississippi,1857,398605.1
+Mississippi,1858,411280.4
+Mississippi,1859,423955.7
+Mississippi,1860,436631.0
+Mississippi,1861,436631.0
+Mississippi,1862,436631.0
+Mississippi,1863,436631.0
+Mississippi,1864,436631.0
+Mississippi,1865,436631.0
+Missouri,1820,10222.0
+Missouri,1821,11709.4
+Missouri,1822,13196.8
+Missouri,1823,14684.2
+Missouri,1824,16171.6
+Missouri,1825,17659.0
+Missouri,1826,19146.4
+Missouri,1827,20633.8
+Missouri,1828,22121.2
+Missouri,1829,23608.6
+Missouri,1830,25096.0
+Missouri,1831,28410.4
+Missouri,1832,31724.8
+Missouri,1833,35039.2
+Missouri,1834,38353.6
+Missouri,1835,41668.0
+Missouri,1836,44982.4
+Missouri,1837,48296.8
+Missouri,1838,51611.2
+Missouri,1839,54925.6
+Missouri,1840,58240.0
+Missouri,1841,61158.2
+Missouri,1842,64076.4
+Missouri,1843,66994.6
+Missouri,1844,69912.8
+Missouri,1845,72831.0
+Missouri,1846,75749.2
+Missouri,1847,78667.4
+Missouri,1848,81585.6
+Missouri,1849,84503.8
+Missouri,1850,87422.0
+Missouri,1851,90172.9
+Missouri,1852,92923.8
+Missouri,1853,95674.7
+Missouri,1854,98425.6
+Missouri,1855,101176.5
+Missouri,1856,103927.4
+Missouri,1857,106678.3
+Missouri,1858,109429.2
+Missouri,1859,112180.1
+Missouri,1860,114931.0
+Missouri,1861,114931.0
+Missouri,1862,114931.0
+Missouri,1863,114931.0
+Missouri,1864,114931.0
+Missouri,1865,114931.0
+Nebraska,1860,15.0
+Nebraska,1861,15.0
+Nebraska,1862,15.0
+Nebraska,1863,15.0
+Nebraska,1864,15.0
+Nebraska,1865,15.0
+New Hampshire,1640,30.0
+New Hampshire,1641,31.0
+New Hampshire,1642,32.0
+New Hampshire,1643,33.0
+New Hampshire,1644,34.0
+New Hampshire,1645,35.0
+New Hampshire,1646,36.0
+New Hampshire,1647,37.0
+New Hampshire,1648,38.0
+New Hampshire,1649,39.0
+New Hampshire,1650,40.0
+New Hampshire,1651,41.0
+New Hampshire,1652,42.0
+New Hampshire,1653,43.0
+New Hampshire,1654,44.0
+New Hampshire,1655,45.0
+New Hampshire,1656,46.0
+New Hampshire,1657,47.0
+New Hampshire,1658,48.0
+New Hampshire,1659,49.0
+New Hampshire,1660,50.0
+New Hampshire,1661,51.5
+New Hampshire,1662,53.0
+New Hampshire,1663,54.5
+New Hampshire,1664,56.0
+New Hampshire,1665,57.5
+New Hampshire,1666,59.0
+New Hampshire,1667,60.5
+New Hampshire,1668,62.0
+New Hampshire,1669,63.5
+New Hampshire,1670,65.0
+New Hampshire,1671,66.0
+New Hampshire,1672,67.0
+New Hampshire,1673,68.0
+New Hampshire,1674,69.0
+New Hampshire,1675,70.0
+New Hampshire,1676,71.0
+New Hampshire,1677,72.0
+New Hampshire,1678,73.0
+New Hampshire,1679,74.0
+New Hampshire,1680,75.0
+New Hampshire,1681,77.5
+New Hampshire,1682,80.0
+New Hampshire,1683,82.5
+New Hampshire,1684,85.0
+New Hampshire,1685,87.5
+New Hampshire,1686,90.0
+New Hampshire,1687,92.5
+New Hampshire,1688,95.0
+New Hampshire,1689,97.5
+New Hampshire,1690,100.0
+New Hampshire,1691,103.0
+New Hampshire,1692,106.0
+New Hampshire,1693,109.0
+New Hampshire,1694,112.0
+New Hampshire,1695,115.0
+New Hampshire,1696,118.0
+New Hampshire,1697,121.0
+New Hampshire,1698,124.0
+New Hampshire,1699,127.0
+New Hampshire,1700,130.0
+New Hampshire,1701,132.0
+New Hampshire,1702,134.0
+New Hampshire,1703,136.0
+New Hampshire,1704,138.0
+New Hampshire,1705,140.0
+New Hampshire,1706,142.0
+New Hampshire,1707,144.0
+New Hampshire,1708,146.0
+New Hampshire,1709,148.0
+New Hampshire,1710,150.0
+New Hampshire,1711,152.0
+New Hampshire,1712,154.0
+New Hampshire,1713,156.0
+New Hampshire,1714,158.0
+New Hampshire,1715,160.0
+New Hampshire,1716,162.0
+New Hampshire,1717,164.0
+New Hampshire,1718,166.0
+New Hampshire,1719,168.0
+New Hampshire,1720,170.0
+New Hampshire,1721,173.0
+New Hampshire,1722,176.0
+New Hampshire,1723,179.0
+New Hampshire,1724,182.0
+New Hampshire,1725,185.0
+New Hampshire,1726,188.0
+New Hampshire,1727,191.0
+New Hampshire,1728,194.0
+New Hampshire,1729,197.0
+New Hampshire,1730,200.0
+New Hampshire,1731,230.0
+New Hampshire,1732,260.0
+New Hampshire,1733,290.0
+New Hampshire,1734,320.0
+New Hampshire,1735,350.0
+New Hampshire,1736,380.0
+New Hampshire,1737,410.0
+New Hampshire,1738,440.0
+New Hampshire,1739,470.0
+New Hampshire,1740,500.0
+New Hampshire,1741,505.0
+New Hampshire,1742,510.0
+New Hampshire,1743,515.0
+New Hampshire,1744,520.0
+New Hampshire,1745,525.0
+New Hampshire,1746,530.0
+New Hampshire,1747,535.0
+New Hampshire,1748,540.0
+New Hampshire,1749,545.0
+New Hampshire,1750,550.0
+New Hampshire,1751,555.0
+New Hampshire,1752,560.0
+New Hampshire,1753,565.0
+New Hampshire,1754,570.0
+New Hampshire,1755,575.0
+New Hampshire,1756,580.0
+New Hampshire,1757,585.0
+New Hampshire,1758,590.0
+New Hampshire,1759,595.0
+New Hampshire,1760,600.0
+New Hampshire,1761,605.4
+New Hampshire,1762,610.8
+New Hampshire,1763,616.2
+New Hampshire,1764,621.6
+New Hampshire,1765,627.0
+New Hampshire,1766,632.4
+New Hampshire,1767,637.8
+New Hampshire,1768,643.2
+New Hampshire,1769,648.6
+New Hampshire,1770,654.0
+New Hampshire,1771,642.7
+New Hampshire,1772,631.4
+New Hampshire,1773,620.1
+New Hampshire,1774,608.8
+New Hampshire,1775,597.5
+New Hampshire,1776,586.2
+New Hampshire,1777,574.9
+New Hampshire,1778,563.6
+New Hampshire,1779,552.3
+New Hampshire,1780,541.0
+New Hampshire,1781,502.6
+New Hampshire,1782,464.2
+New Hampshire,1783,425.8
+New Hampshire,1784,387.4
+New Hampshire,1785,349.0
+New Hampshire,1786,310.6
+New Hampshire,1787,272.2
+New Hampshire,1788,233.8
+New Hampshire,1789,195.4
+New Hampshire,1790,157.0
+New Hampshire,1791,142.1
+New Hampshire,1792,127.2
+New Hampshire,1793,112.3
+New Hampshire,1794,97.4
+New Hampshire,1795,82.5
+New Hampshire,1796,67.6
+New Hampshire,1797,52.7
+New Hampshire,1798,37.8
+New Hampshire,1799,22.9
+New Hampshire,1800,8.0
+New Hampshire,1801,7.2
+New Hampshire,1802,6.4
+New Hampshire,1803,5.6
+New Hampshire,1804,4.8
+New Hampshire,1805,4.0
+New Hampshire,1806,3.2
+New Hampshire,1807,2.4
+New Hampshire,1808,1.6
+New Hampshire,1809,0.8
+New Hampshire,1821,0.3
+New Hampshire,1822,0.6
+New Hampshire,1823,0.9
+New Hampshire,1824,1.2
+New Hampshire,1825,1.5
+New Hampshire,1826,1.8
+New Hampshire,1827,2.1
+New Hampshire,1828,2.4
+New Hampshire,1829,2.7
+New Hampshire,1830,3.0
+New Hampshire,1831,2.8
+New Hampshire,1832,2.6
+New Hampshire,1833,2.4
+New Hampshire,1834,2.2
+New Hampshire,1835,2.0
+New Hampshire,1836,1.8
+New Hampshire,1837,1.6
+New Hampshire,1838,1.4
+New Hampshire,1839,1.2
+New Hampshire,1840,1.0
+New Hampshire,1841,0.9
+New Hampshire,1842,0.8
+New Hampshire,1843,0.7
+New Hampshire,1844,0.6
+New Hampshire,1845,0.5
+New Hampshire,1846,0.4
+New Hampshire,1847,0.3
+New Hampshire,1848,0.2
+New Hampshire,1849,0.1
+New Jersey,1670,60.0
+New Jersey,1671,74.0
+New Jersey,1672,88.0
+New Jersey,1673,102.0
+New Jersey,1674,116.0
+New Jersey,1675,130.0
+New Jersey,1676,144.0
+New Jersey,1677,158.0
+New Jersey,1678,172.0
+New Jersey,1679,186.0
+New Jersey,1680,200.0
+New Jersey,1681,225.0
+New Jersey,1682,250.0
+New Jersey,1683,275.0
+New Jersey,1684,300.0
+New Jersey,1685,325.0
+New Jersey,1686,350.0
+New Jersey,1687,375.0
+New Jersey,1688,400.0
+New Jersey,1689,425.0
+New Jersey,1690,450.0
+New Jersey,1691,489.0
+New Jersey,1692,528.0
+New Jersey,1693,567.0
+New Jersey,1694,606.0
+New Jersey,1695,645.0
+New Jersey,1696,684.0
+New Jersey,1697,723.0
+New Jersey,1698,762.0
+New Jersey,1699,801.0
+New Jersey,1700,840.0
+New Jersey,1701,889.2
+New Jersey,1702,938.4
+New Jersey,1703,987.6
+New Jersey,1704,1036.8
+New Jersey,1705,1086.0
+New Jersey,1706,1135.2
+New Jersey,1707,1184.4
+New Jersey,1708,1233.6
+New Jersey,1709,1282.8
+New Jersey,1710,1332.0
+New Jersey,1711,1437.3
+New Jersey,1712,1542.6
+New Jersey,1713,1647.9
+New Jersey,1714,1753.2
+New Jersey,1715,1858.5
+New Jersey,1716,1963.8
+New Jersey,1717,2069.1
+New Jersey,1718,2174.4
+New Jersey,1719,2279.7
+New Jersey,1720,2385.0
+New Jersey,1721,2447.3
+New Jersey,1722,2509.6
+New Jersey,1723,2571.9
+New Jersey,1724,2634.2
+New Jersey,1725,2696.5
+New Jersey,1726,2758.8
+New Jersey,1727,2821.1
+New Jersey,1728,2883.4
+New Jersey,1729,2945.7
+New Jersey,1730,3008.0
+New Jersey,1731,3143.8
+New Jersey,1732,3279.6
+New Jersey,1733,3415.4
+New Jersey,1734,3551.2
+New Jersey,1735,3687.0
+New Jersey,1736,3822.8
+New Jersey,1737,3958.6
+New Jersey,1738,4094.4
+New Jersey,1739,4230.2
+New Jersey,1740,4366.0
+New Jersey,1741,4464.8
+New Jersey,1742,4563.6
+New Jersey,1743,4662.4
+New Jersey,1744,4761.2
+New Jersey,1745,4860.0
+New Jersey,1746,4958.8
+New Jersey,1747,5057.6
+New Jersey,1748,5156.4
+New Jersey,1749,5255.2
+New Jersey,1750,5354.0
+New Jersey,1751,5475.3
+New Jersey,1752,5596.6
+New Jersey,1753,5717.9
+New Jersey,1754,5839.2
+New Jersey,1755,5960.5
+New Jersey,1756,6081.8
+New Jersey,1757,6203.1
+New Jersey,1758,6324.4
+New Jersey,1759,6445.7
+New Jersey,1760,6567.0
+New Jersey,1761,6732.3
+New Jersey,1762,6897.6
+New Jersey,1763,7062.9
+New Jersey,1764,7228.2
+New Jersey,1765,7393.5
+New Jersey,1766,7558.8
+New Jersey,1767,7724.1
+New Jersey,1768,7889.4
+New Jersey,1769,8054.7
+New Jersey,1770,8220.0
+New Jersey,1771,8444.0
+New Jersey,1772,8668.0
+New Jersey,1773,8892.0
+New Jersey,1774,9116.0
+New Jersey,1775,9340.0
+New Jersey,1776,9564.0
+New Jersey,1777,9788.0
+New Jersey,1778,10012.0
+New Jersey,1779,10236.0
+New Jersey,1780,10460.0
+New Jersey,1781,10556.3
+New Jersey,1782,10652.6
+New Jersey,1783,10748.9
+New Jersey,1784,10845.2
+New Jersey,1785,10941.5
+New Jersey,1786,11037.8
+New Jersey,1787,11134.1
+New Jersey,1788,11230.4
+New Jersey,1789,11326.7
+New Jersey,1790,11423.0
+New Jersey,1791,11522.9
+New Jersey,1792,11622.8
+New Jersey,1793,11722.7
+New Jersey,1794,11822.6
+New Jersey,1795,11922.5
+New Jersey,1796,12022.4
+New Jersey,1797,12122.3
+New Jersey,1798,12222.2
+New Jersey,1799,12322.1
+New Jersey,1800,12422.0
+New Jersey,1801,12264.9
+New Jersey,1802,12107.8
+New Jersey,1803,11950.7
+New Jersey,1804,11793.6
+New Jersey,1805,11636.5
+New Jersey,1806,11479.4
+New Jersey,1807,11322.3
+New Jersey,1808,11165.2
+New Jersey,1809,11008.1
+New Jersey,1810,10851.0
+New Jersey,1811,10521.6
+New Jersey,1812,10192.2
+New Jersey,1813,9862.8
+New Jersey,1814,9533.4
+New Jersey,1815,9204.0
+New Jersey,1816,8874.6
+New Jersey,1817,8545.2
+New Jersey,1818,8215.8
+New Jersey,1819,7886.4
+New Jersey,1820,7557.0
+New Jersey,1821,7026.7
+New Jersey,1822,6496.4
+New Jersey,1823,5966.1
+New Jersey,1824,5435.8
+New Jersey,1825,4905.5
+New Jersey,1826,4375.2
+New Jersey,1827,3844.9
+New Jersey,1828,3314.6
+New Jersey,1829,2784.3
+New Jersey,1830,2254.0
+New Jersey,1831,2096.0
+New Jersey,1832,1938.0
+New Jersey,1833,1780.0
+New Jersey,1834,1622.0
+New Jersey,1835,1464.0
+New Jersey,1836,1306.0
+New Jersey,1837,1148.0
+New Jersey,1838,990.0
+New Jersey,1839,832.0
+New Jersey,1840,674.0
+New Jersey,1841,630.2
+New Jersey,1842,586.4
+New Jersey,1843,542.6
+New Jersey,1844,498.8
+New Jersey,1845,455.0
+New Jersey,1846,411.2
+New Jersey,1847,367.4
+New Jersey,1848,323.6
+New Jersey,1849,279.8
+New Jersey,1850,236.0
+New Jersey,1851,214.2
+New Jersey,1852,192.4
+New Jersey,1853,170.6
+New Jersey,1854,148.8
+New Jersey,1855,127.0
+New Jersey,1856,105.2
+New Jersey,1857,83.4
+New Jersey,1858,61.6
+New Jersey,1859,39.8
+New Jersey,1860,18.0
+New Jersey,1861,18.0
+New Jersey,1862,18.0
+New Jersey,1863,18.0
+New Jersey,1864,18.0
+New Jersey,1865,18.0
+New York,1630,10.0
+New York,1631,32.2
+New York,1632,54.4
+New York,1633,76.6
+New York,1634,98.8
+New York,1635,121.0
+New York,1636,143.2
+New York,1637,165.4
+New York,1638,187.6
+New York,1639,209.8
+New York,1640,232.0
+New York,1641,258.8
+New York,1642,285.6
+New York,1643,312.4
+New York,1644,339.2
+New York,1645,366.0
+New York,1646,392.8
+New York,1647,419.6
+New York,1648,446.4
+New York,1649,473.2
+New York,1650,500.0
+New York,1651,510.0
+New York,1652,520.0
+New York,1653,530.0
+New York,1654,540.0
+New York,1655,550.0
+New York,1656,560.0
+New York,1657,570.0
+New York,1658,580.0
+New York,1659,590.0
+New York,1660,600.0
+New York,1661,609.0
+New York,1662,618.0
+New York,1663,627.0
+New York,1664,636.0
+New York,1665,645.0
+New York,1666,654.0
+New York,1667,663.0
+New York,1668,672.0
+New York,1669,681.0
+New York,1670,690.0
+New York,1671,741.0
+New York,1672,792.0
+New York,1673,843.0
+New York,1674,894.0
+New York,1675,945.0
+New York,1676,996.0
+New York,1677,1047.0
+New York,1678,1098.0
+New York,1679,1149.0
+New York,1680,1200.0
+New York,1681,1247.0
+New York,1682,1294.0
+New York,1683,1341.0
+New York,1684,1388.0
+New York,1685,1435.0
+New York,1686,1482.0
+New York,1687,1529.0
+New York,1688,1576.0
+New York,1689,1623.0
+New York,1690,1670.0
+New York,1691,1728.6
+New York,1692,1787.2
+New York,1693,1845.8
+New York,1694,1904.4
+New York,1695,1963.0
+New York,1696,2021.6
+New York,1697,2080.2
+New York,1698,2138.8
+New York,1699,2197.4
+New York,1700,2256.0
+New York,1701,2311.5
+New York,1702,2367.0
+New York,1703,2422.5
+New York,1704,2478.0
+New York,1705,2533.5
+New York,1706,2589.0
+New York,1707,2644.5
+New York,1708,2700.0
+New York,1709,2755.5
+New York,1710,2811.0
+New York,1711,3103.9
+New York,1712,3396.8
+New York,1713,3689.7
+New York,1714,3982.6
+New York,1715,4275.5
+New York,1716,4568.4
+New York,1717,4861.3
+New York,1718,5154.2
+New York,1719,5447.1
+New York,1720,5740.0
+New York,1721,5861.6
+New York,1722,5983.2
+New York,1723,6104.8
+New York,1724,6226.4
+New York,1725,6348.0
+New York,1726,6469.6
+New York,1727,6591.2
+New York,1728,6712.8
+New York,1729,6834.4
+New York,1730,6956.0
+New York,1731,7160.0
+New York,1732,7364.0
+New York,1733,7568.0
+New York,1734,7772.0
+New York,1735,7976.0
+New York,1736,8180.0
+New York,1737,8384.0
+New York,1738,8588.0
+New York,1739,8792.0
+New York,1740,8996.0
+New York,1741,9197.8
+New York,1742,9399.6
+New York,1743,9601.4
+New York,1744,9803.2
+New York,1745,10005.0
+New York,1746,10206.8
+New York,1747,10408.6
+New York,1748,10610.4
+New York,1749,10812.2
+New York,1750,11014.0
+New York,1751,11546.6
+New York,1752,12079.2
+New York,1753,12611.8
+New York,1754,13144.4
+New York,1755,13677.0
+New York,1756,14209.6
+New York,1757,14742.2
+New York,1758,15274.8
+New York,1759,15807.4
+New York,1760,16340.0
+New York,1761,16617.2
+New York,1762,16894.4
+New York,1763,17171.6
+New York,1764,17448.8
+New York,1765,17726.0
+New York,1766,18003.2
+New York,1767,18280.4
+New York,1768,18557.6
+New York,1769,18834.8
+New York,1770,19112.0
+New York,1771,19306.2
+New York,1772,19500.4
+New York,1773,19694.6
+New York,1774,19888.8
+New York,1775,20083.0
+New York,1776,20277.2
+New York,1777,20471.4
+New York,1778,20665.6
+New York,1779,20859.8
+New York,1780,21054.0
+New York,1781,21067.9
+New York,1782,21081.8
+New York,1783,21095.7
+New York,1784,21109.6
+New York,1785,21123.5
+New York,1786,21137.4
+New York,1787,21151.3
+New York,1788,21165.2
+New York,1789,21179.1
+New York,1790,21193.0
+New York,1791,21135.0
+New York,1792,21077.0
+New York,1793,21019.0
+New York,1794,20961.0
+New York,1795,20903.0
+New York,1796,20845.0
+New York,1797,20787.0
+New York,1798,20729.0
+New York,1799,20671.0
+New York,1800,20613.0
+New York,1801,20053.4
+New York,1802,19493.8
+New York,1803,18934.2
+New York,1804,18374.6
+New York,1805,17815.0
+New York,1806,17255.4
+New York,1807,16695.8
+New York,1808,16136.2
+New York,1809,15576.6
+New York,1810,15017.0
+New York,1811,14524.1
+New York,1812,14031.2
+New York,1813,13538.3
+New York,1814,13045.4
+New York,1815,12552.5
+New York,1816,12059.6
+New York,1817,11566.7
+New York,1818,11073.8
+New York,1819,10580.9
+New York,1820,10088.0
+New York,1821,9086.7
+New York,1822,8085.4
+New York,1823,7084.1
+New York,1824,6082.8
+New York,1825,5081.5
+New York,1826,4080.2
+New York,1827,3078.9
+New York,1828,2077.6
+New York,1829,1076.3
+New York,1830,75.0
+New York,1831,67.9
+New York,1832,60.8
+New York,1833,53.7
+New York,1834,46.6
+New York,1835,39.5
+New York,1836,32.4
+New York,1837,25.3
+New York,1838,18.2
+New York,1839,11.1
+New York,1840,4.0
+New York,1841,3.6
+New York,1842,3.2
+New York,1843,2.8
+New York,1844,2.4
+New York,1845,2.0
+New York,1846,1.6
+New York,1847,1.2
+New York,1848,0.8
+New York,1849,0.4
+North Carolina,1660,20.0
+North Carolina,1661,33.0
+North Carolina,1662,46.0
+North Carolina,1663,59.0
+North Carolina,1664,72.0
+North Carolina,1665,85.0
+North Carolina,1666,98.0
+North Carolina,1667,111.0
+North Carolina,1668,124.0
+North Carolina,1669,137.0
+North Carolina,1670,150.0
+North Carolina,1671,156.0
+North Carolina,1672,162.0
+North Carolina,1673,168.0
+North Carolina,1674,174.0
+North Carolina,1675,180.0
+North Carolina,1676,186.0
+North Carolina,1677,192.0
+North Carolina,1678,198.0
+North Carolina,1679,204.0
+North Carolina,1680,210.0
+North Carolina,1681,219.0
+North Carolina,1682,228.0
+North Carolina,1683,237.0
+North Carolina,1684,246.0
+North Carolina,1685,255.0
+North Carolina,1686,264.0
+North Carolina,1687,273.0
+North Carolina,1688,282.0
+North Carolina,1689,291.0
+North Carolina,1690,300.0
+North Carolina,1691,311.5
+North Carolina,1692,323.0
+North Carolina,1693,334.5
+North Carolina,1694,346.0
+North Carolina,1695,357.5
+North Carolina,1696,369.0
+North Carolina,1697,380.5
+North Carolina,1698,392.0
+North Carolina,1699,403.5
+North Carolina,1700,415.0
+North Carolina,1701,463.5
+North Carolina,1702,512.0
+North Carolina,1703,560.5
+North Carolina,1704,609.0
+North Carolina,1705,657.5
+North Carolina,1706,706.0
+North Carolina,1707,754.5
+North Carolina,1708,803.0
+North Carolina,1709,851.5
+North Carolina,1710,900.0
+North Carolina,1711,1110.0
+North Carolina,1712,1320.0
+North Carolina,1713,1530.0
+North Carolina,1714,1740.0
+North Carolina,1715,1950.0
+North Carolina,1716,2160.0
+North Carolina,1717,2370.0
+North Carolina,1718,2580.0
+North Carolina,1719,2790.0
+North Carolina,1720,3000.0
+North Carolina,1721,3300.0
+North Carolina,1722,3600.0
+North Carolina,1723,3900.0
+North Carolina,1724,4200.0
+North Carolina,1725,4500.0
+North Carolina,1726,4800.0
+North Carolina,1727,5100.0
+North Carolina,1728,5400.0
+North Carolina,1729,5700.0
+North Carolina,1730,6000.0
+North Carolina,1731,6500.0
+North Carolina,1732,7000.0
+North Carolina,1733,7500.0
+North Carolina,1734,8000.0
+North Carolina,1735,8500.0
+North Carolina,1736,9000.0
+North Carolina,1737,9500.0
+North Carolina,1738,10000.0
+North Carolina,1739,10500.0
+North Carolina,1740,11000.0
+North Carolina,1741,11880.0
+North Carolina,1742,12760.0
+North Carolina,1743,13640.0
+North Carolina,1744,14520.0
+North Carolina,1745,15400.0
+North Carolina,1746,16280.0
+North Carolina,1747,17160.0
+North Carolina,1748,18040.0
+North Carolina,1749,18920.0
+North Carolina,1750,19800.0
+North Carolina,1751,21175.4
+North Carolina,1752,22550.8
+North Carolina,1753,23926.2
+North Carolina,1754,25301.6
+North Carolina,1755,26677.0
+North Carolina,1756,28052.4
+North Carolina,1757,29427.8
+North Carolina,1758,30803.2
+North Carolina,1759,32178.6
+North Carolina,1760,33554.0
+North Carolina,1761,37158.6
+North Carolina,1762,40763.2
+North Carolina,1763,44367.8
+North Carolina,1764,47972.4
+North Carolina,1765,51577.0
+North Carolina,1766,55181.6
+North Carolina,1767,58786.2
+North Carolina,1768,62390.8
+North Carolina,1769,65995.4
+North Carolina,1770,69600.0
+North Carolina,1771,71740.0
+North Carolina,1772,73880.0
+North Carolina,1773,76020.0
+North Carolina,1774,78160.0
+North Carolina,1775,80300.0
+North Carolina,1776,82440.0
+North Carolina,1777,84580.0
+North Carolina,1778,86720.0
+North Carolina,1779,88860.0
+North Carolina,1780,91000.0
+North Carolina,1781,91978.3
+North Carolina,1782,92956.6
+North Carolina,1783,93934.9
+North Carolina,1784,94913.2
+North Carolina,1785,95891.5
+North Carolina,1786,96869.8
+North Carolina,1787,97848.1
+North Carolina,1788,98826.4
+North Carolina,1789,99804.7
+North Carolina,1790,100783.0
+North Carolina,1791,104034.3
+North Carolina,1792,107285.6
+North Carolina,1793,110536.9
+North Carolina,1794,113788.2
+North Carolina,1795,117039.5
+North Carolina,1796,120290.8
+North Carolina,1797,123542.1
+North Carolina,1798,126793.4
+North Carolina,1799,130044.7
+North Carolina,1800,133296.0
+North Carolina,1801,136848.8
+North Carolina,1802,140401.6
+North Carolina,1803,143954.4
+North Carolina,1804,147507.2
+North Carolina,1805,151060.0
+North Carolina,1806,154612.8
+North Carolina,1807,158165.6
+North Carolina,1808,161718.4
+North Carolina,1809,165271.2
+North Carolina,1810,168824.0
+North Carolina,1811,172443.3
+North Carolina,1812,176062.6
+North Carolina,1813,179681.9
+North Carolina,1814,183301.2
+North Carolina,1815,186920.5
+North Carolina,1816,190539.8
+North Carolina,1817,194159.1
+North Carolina,1818,197778.4
+North Carolina,1819,201397.7
+North Carolina,1820,205017.0
+North Carolina,1821,209075.4
+North Carolina,1822,213133.8
+North Carolina,1823,217192.2
+North Carolina,1824,221250.6
+North Carolina,1825,225309.0
+North Carolina,1826,229367.4
+North Carolina,1827,233425.8
+North Carolina,1828,237484.2
+North Carolina,1829,241542.6
+North Carolina,1830,245601.0
+North Carolina,1831,245622.6
+North Carolina,1832,245644.2
+North Carolina,1833,245665.8
+North Carolina,1834,245687.4
+North Carolina,1835,245709.0
+North Carolina,1836,245730.6
+North Carolina,1837,245752.2
+North Carolina,1838,245773.8
+North Carolina,1839,245795.4
+North Carolina,1840,245817.0
+North Carolina,1841,250090.1
+North Carolina,1842,254363.2
+North Carolina,1843,258636.3
+North Carolina,1844,262909.4
+North Carolina,1845,267182.5
+North Carolina,1846,271455.6
+North Carolina,1847,275728.7
+North Carolina,1848,280001.8
+North Carolina,1849,284274.9
+North Carolina,1850,288548.0
+North Carolina,1851,292799.1
+North Carolina,1852,297050.2
+North Carolina,1853,301301.3
+North Carolina,1854,305552.4
+North Carolina,1855,309803.5
+North Carolina,1856,314054.6
+North Carolina,1857,318305.7
+North Carolina,1858,322556.8
+North Carolina,1859,326807.9
+North Carolina,1860,331059.0
+North Carolina,1861,331059.0
+North Carolina,1862,331059.0
+North Carolina,1863,331059.0
+North Carolina,1864,331059.0
+North Carolina,1865,331059.0
+Ohio,1821,0.6
+Ohio,1822,1.2
+Ohio,1823,1.8
+Ohio,1824,2.4
+Ohio,1825,3.0
+Ohio,1826,3.6
+Ohio,1827,4.2
+Ohio,1828,4.8
+Ohio,1829,5.4
+Ohio,1830,6.0
+Ohio,1831,5.7
+Ohio,1832,5.4
+Ohio,1833,5.1
+Ohio,1834,4.8
+Ohio,1835,4.5
+Ohio,1836,4.2
+Ohio,1837,3.9
+Ohio,1838,3.6
+Ohio,1839,3.3
+Ohio,1840,3.0
+Ohio,1841,2.7
+Ohio,1842,2.4
+Ohio,1843,2.1
+Ohio,1844,1.8
+Ohio,1845,1.5
+Ohio,1846,1.2
+Ohio,1847,0.9
+Ohio,1848,0.6
+Ohio,1849,0.3
+Pennsylvania,1680,25.0
+Pennsylvania,1681,49.5
+Pennsylvania,1682,74.0
+Pennsylvania,1683,98.5
+Pennsylvania,1684,123.0
+Pennsylvania,1685,147.5
+Pennsylvania,1686,172.0
+Pennsylvania,1687,196.5
+Pennsylvania,1688,221.0
+Pennsylvania,1689,245.5
+Pennsylvania,1690,270.0
+Pennsylvania,1691,286.0
+Pennsylvania,1692,302.0
+Pennsylvania,1693,318.0
+Pennsylvania,1694,334.0
+Pennsylvania,1695,350.0
+Pennsylvania,1696,366.0
+Pennsylvania,1697,382.0
+Pennsylvania,1698,398.0
+Pennsylvania,1699,414.0
+Pennsylvania,1700,430.0
+Pennsylvania,1701,544.5
+Pennsylvania,1702,659.0
+Pennsylvania,1703,773.5
+Pennsylvania,1704,888.0
+Pennsylvania,1705,1002.5
+Pennsylvania,1706,1117.0
+Pennsylvania,1707,1231.5
+Pennsylvania,1708,1346.0
+Pennsylvania,1709,1460.5
+Pennsylvania,1710,1575.0
+Pennsylvania,1711,1617.5
+Pennsylvania,1712,1660.0
+Pennsylvania,1713,1702.5
+Pennsylvania,1714,1745.0
+Pennsylvania,1715,1787.5
+Pennsylvania,1716,1830.0
+Pennsylvania,1717,1872.5
+Pennsylvania,1718,1915.0
+Pennsylvania,1719,1957.5
+Pennsylvania,1720,2000.0
+Pennsylvania,1721,1924.1
+Pennsylvania,1722,1848.2
+Pennsylvania,1723,1772.3
+Pennsylvania,1724,1696.4
+Pennsylvania,1725,1620.5
+Pennsylvania,1726,1544.6
+Pennsylvania,1727,1468.7
+Pennsylvania,1728,1392.8
+Pennsylvania,1729,1316.9
+Pennsylvania,1730,1241.0
+Pennsylvania,1731,1322.4
+Pennsylvania,1732,1403.8
+Pennsylvania,1733,1485.2
+Pennsylvania,1734,1566.6
+Pennsylvania,1735,1648.0
+Pennsylvania,1736,1729.4
+Pennsylvania,1737,1810.8
+Pennsylvania,1738,1892.2
+Pennsylvania,1739,1973.6
+Pennsylvania,1740,2055.0
+Pennsylvania,1741,2136.7
+Pennsylvania,1742,2218.4
+Pennsylvania,1743,2300.1
+Pennsylvania,1744,2381.8
+Pennsylvania,1745,2463.5
+Pennsylvania,1746,2545.2
+Pennsylvania,1747,2626.9
+Pennsylvania,1748,2708.6
+Pennsylvania,1749,2790.3
+Pennsylvania,1750,2872.0
+Pennsylvania,1751,3025.7
+Pennsylvania,1752,3179.4
+Pennsylvania,1753,3333.1
+Pennsylvania,1754,3486.8
+Pennsylvania,1755,3640.5
+Pennsylvania,1756,3794.2
+Pennsylvania,1757,3947.9
+Pennsylvania,1758,4101.6
+Pennsylvania,1759,4255.3
+Pennsylvania,1760,4409.0
+Pennsylvania,1761,4544.2
+Pennsylvania,1762,4679.4
+Pennsylvania,1763,4814.6
+Pennsylvania,1764,4949.8
+Pennsylvania,1765,5085.0
+Pennsylvania,1766,5220.2
+Pennsylvania,1767,5355.4
+Pennsylvania,1768,5490.6
+Pennsylvania,1769,5625.8
+Pennsylvania,1770,5761.0
+Pennsylvania,1771,5970.4
+Pennsylvania,1772,6179.8
+Pennsylvania,1773,6389.2
+Pennsylvania,1774,6598.6
+Pennsylvania,1775,6808.0
+Pennsylvania,1776,7017.4
+Pennsylvania,1777,7226.8
+Pennsylvania,1778,7436.2
+Pennsylvania,1779,7645.6
+Pennsylvania,1780,7855.0
+Pennsylvania,1781,7440.2
+Pennsylvania,1782,7025.4
+Pennsylvania,1783,6610.6
+Pennsylvania,1784,6195.8
+Pennsylvania,1785,5781.0
+Pennsylvania,1786,5366.2
+Pennsylvania,1787,4951.4
+Pennsylvania,1788,4536.6
+Pennsylvania,1789,4121.8
+Pennsylvania,1790,3707.0
+Pennsylvania,1791,3506.9
+Pennsylvania,1792,3306.8
+Pennsylvania,1793,3106.7
+Pennsylvania,1794,2906.6
+Pennsylvania,1795,2706.5
+Pennsylvania,1796,2506.4
+Pennsylvania,1797,2306.3
+Pennsylvania,1798,2106.2
+Pennsylvania,1799,1906.1
+Pennsylvania,1800,1706.0
+Pennsylvania,1801,1614.9
+Pennsylvania,1802,1523.8
+Pennsylvania,1803,1432.7
+Pennsylvania,1804,1341.6
+Pennsylvania,1805,1250.5
+Pennsylvania,1806,1159.4
+Pennsylvania,1807,1068.3
+Pennsylvania,1808,977.2
+Pennsylvania,1809,886.1
+Pennsylvania,1810,795.0
+Pennsylvania,1811,736.6
+Pennsylvania,1812,678.2
+Pennsylvania,1813,619.8
+Pennsylvania,1814,561.4
+Pennsylvania,1815,503.0
+Pennsylvania,1816,444.6
+Pennsylvania,1817,386.2
+Pennsylvania,1818,327.8
+Pennsylvania,1819,269.4
+Pennsylvania,1820,211.0
+Pennsylvania,1821,230.2
+Pennsylvania,1822,249.4
+Pennsylvania,1823,268.6
+Pennsylvania,1824,287.8
+Pennsylvania,1825,307.0
+Pennsylvania,1826,326.2
+Pennsylvania,1827,345.4
+Pennsylvania,1828,364.6
+Pennsylvania,1829,383.8
+Pennsylvania,1830,403.0
+Pennsylvania,1831,369.1
+Pennsylvania,1832,335.2
+Pennsylvania,1833,301.3
+Pennsylvania,1834,267.4
+Pennsylvania,1835,233.5
+Pennsylvania,1836,199.6
+Pennsylvania,1837,165.7
+Pennsylvania,1838,131.8
+Pennsylvania,1839,97.9
+Pennsylvania,1840,64.0
+Pennsylvania,1841,57.6
+Pennsylvania,1842,51.2
+Pennsylvania,1843,44.8
+Pennsylvania,1844,38.4
+Pennsylvania,1845,32.0
+Pennsylvania,1846,25.6
+Pennsylvania,1847,19.2
+Pennsylvania,1848,12.8
+Pennsylvania,1849,6.4
+Rhode Island,1650,25.0
+Rhode Island,1651,29.0
+Rhode Island,1652,33.0
+Rhode Island,1653,37.0
+Rhode Island,1654,41.0
+Rhode Island,1655,45.0
+Rhode Island,1656,49.0
+Rhode Island,1657,53.0
+Rhode Island,1658,57.0
+Rhode Island,1659,61.0
+Rhode Island,1660,65.0
+Rhode Island,1661,70.0
+Rhode Island,1662,75.0
+Rhode Island,1663,80.0
+Rhode Island,1664,85.0
+Rhode Island,1665,90.0
+Rhode Island,1666,95.0
+Rhode Island,1667,100.0
+Rhode Island,1668,105.0
+Rhode Island,1669,110.0
+Rhode Island,1670,115.0
+Rhode Island,1671,121.0
+Rhode Island,1672,127.0
+Rhode Island,1673,133.0
+Rhode Island,1674,139.0
+Rhode Island,1675,145.0
+Rhode Island,1676,151.0
+Rhode Island,1677,157.0
+Rhode Island,1678,163.0
+Rhode Island,1679,169.0
+Rhode Island,1680,175.0
+Rhode Island,1681,182.5
+Rhode Island,1682,190.0
+Rhode Island,1683,197.5
+Rhode Island,1684,205.0
+Rhode Island,1685,212.5
+Rhode Island,1686,220.0
+Rhode Island,1687,227.5
+Rhode Island,1688,235.0
+Rhode Island,1689,242.5
+Rhode Island,1690,250.0
+Rhode Island,1691,255.0
+Rhode Island,1692,260.0
+Rhode Island,1693,265.0
+Rhode Island,1694,270.0
+Rhode Island,1695,275.0
+Rhode Island,1696,280.0
+Rhode Island,1697,285.0
+Rhode Island,1698,290.0
+Rhode Island,1699,295.0
+Rhode Island,1700,300.0
+Rhode Island,1701,307.5
+Rhode Island,1702,315.0
+Rhode Island,1703,322.5
+Rhode Island,1704,330.0
+Rhode Island,1705,337.5
+Rhode Island,1706,345.0
+Rhode Island,1707,352.5
+Rhode Island,1708,360.0
+Rhode Island,1709,367.5
+Rhode Island,1710,375.0
+Rhode Island,1711,391.8
+Rhode Island,1712,408.6
+Rhode Island,1713,425.4
+Rhode Island,1714,442.2
+Rhode Island,1715,459.0
+Rhode Island,1716,475.8
+Rhode Island,1717,492.6
+Rhode Island,1718,509.4
+Rhode Island,1719,526.2
+Rhode Island,1720,543.0
+Rhode Island,1721,653.5
+Rhode Island,1722,764.0
+Rhode Island,1723,874.5
+Rhode Island,1724,985.0
+Rhode Island,1725,1095.5
+Rhode Island,1726,1206.0
+Rhode Island,1727,1316.5
+Rhode Island,1728,1427.0
+Rhode Island,1729,1537.5
+Rhode Island,1730,1648.0
+Rhode Island,1731,1724.0
+Rhode Island,1732,1800.0
+Rhode Island,1733,1876.0
+Rhode Island,1734,1952.0
+Rhode Island,1735,2028.0
+Rhode Island,1736,2104.0
+Rhode Island,1737,2180.0
+Rhode Island,1738,2256.0
+Rhode Island,1739,2332.0
+Rhode Island,1740,2408.0
+Rhode Island,1741,2501.9
+Rhode Island,1742,2595.8
+Rhode Island,1743,2689.7
+Rhode Island,1744,2783.6
+Rhode Island,1745,2877.5
+Rhode Island,1746,2971.4
+Rhode Island,1747,3065.3
+Rhode Island,1748,3159.2
+Rhode Island,1749,3253.1
+Rhode Island,1750,3347.0
+Rhode Island,1751,3359.1
+Rhode Island,1752,3371.2
+Rhode Island,1753,3383.3
+Rhode Island,1754,3395.4
+Rhode Island,1755,3407.5
+Rhode Island,1756,3419.6
+Rhode Island,1757,3431.7
+Rhode Island,1758,3443.8
+Rhode Island,1759,3455.9
+Rhode Island,1760,3468.0
+Rhode Island,1761,3497.3
+Rhode Island,1762,3526.6
+Rhode Island,1763,3555.9
+Rhode Island,1764,3585.2
+Rhode Island,1765,3614.5
+Rhode Island,1766,3643.8
+Rhode Island,1767,3673.1
+Rhode Island,1768,3702.4
+Rhode Island,1769,3731.7
+Rhode Island,1770,3761.0
+Rhode Island,1771,3652.0
+Rhode Island,1772,3543.0
+Rhode Island,1773,3434.0
+Rhode Island,1774,3325.0
+Rhode Island,1775,3216.0
+Rhode Island,1776,3107.0
+Rhode Island,1777,2998.0
+Rhode Island,1778,2889.0
+Rhode Island,1779,2780.0
+Rhode Island,1780,2671.0
+Rhode Island,1781,2499.7
+Rhode Island,1782,2328.4
+Rhode Island,1783,2157.1
+Rhode Island,1784,1985.8
+Rhode Island,1785,1814.5
+Rhode Island,1786,1643.2
+Rhode Island,1787,1471.9
+Rhode Island,1788,1300.6
+Rhode Island,1789,1129.3
+Rhode Island,1790,958.0
+Rhode Island,1791,900.2
+Rhode Island,1792,842.4
+Rhode Island,1793,784.6
+Rhode Island,1794,726.8
+Rhode Island,1795,669.0
+Rhode Island,1796,611.2
+Rhode Island,1797,553.4
+Rhode Island,1798,495.6
+Rhode Island,1799,437.8
+Rhode Island,1800,380.0
+Rhode Island,1801,352.8
+Rhode Island,1802,325.6
+Rhode Island,1803,298.4
+Rhode Island,1804,271.2
+Rhode Island,1805,244.0
+Rhode Island,1806,216.8
+Rhode Island,1807,189.6
+Rhode Island,1808,162.4
+Rhode Island,1809,135.2
+Rhode Island,1810,108.0
+Rhode Island,1811,102.0
+Rhode Island,1812,96.0
+Rhode Island,1813,90.0
+Rhode Island,1814,84.0
+Rhode Island,1815,78.0
+Rhode Island,1816,72.0
+Rhode Island,1817,66.0
+Rhode Island,1818,60.0
+Rhode Island,1819,54.0
+Rhode Island,1820,48.0
+Rhode Island,1821,44.9
+Rhode Island,1822,41.8
+Rhode Island,1823,38.7
+Rhode Island,1824,35.6
+Rhode Island,1825,32.5
+Rhode Island,1826,29.4
+Rhode Island,1827,26.3
+Rhode Island,1828,23.2
+Rhode Island,1829,20.1
+Rhode Island,1830,17.0
+Rhode Island,1831,15.8
+Rhode Island,1832,14.6
+Rhode Island,1833,13.4
+Rhode Island,1834,12.2
+Rhode Island,1835,11.0
+Rhode Island,1836,9.8
+Rhode Island,1837,8.6
+Rhode Island,1838,7.4
+Rhode Island,1839,6.2
+Rhode Island,1840,5.0
+Rhode Island,1841,4.5
+Rhode Island,1842,4.0
+Rhode Island,1843,3.5
+Rhode Island,1844,3.0
+Rhode Island,1845,2.5
+Rhode Island,1846,2.0
+Rhode Island,1847,1.5
+Rhode Island,1848,1.0
+Rhode Island,1849,0.5
+South Carolina,1670,30.0
+South Carolina,1671,47.0
+South Carolina,1672,64.0
+South Carolina,1673,81.0
+South Carolina,1674,98.0
+South Carolina,1675,115.0
+South Carolina,1676,132.0
+South Carolina,1677,149.0
+South Carolina,1678,166.0
+South Carolina,1679,183.0
+South Carolina,1680,200.0
+South Carolina,1681,330.0
+South Carolina,1682,460.0
+South Carolina,1683,590.0
+South Carolina,1684,720.0
+South Carolina,1685,850.0
+South Carolina,1686,980.0
+South Carolina,1687,1110.0
+South Carolina,1688,1240.0
+South Carolina,1689,1370.0
+South Carolina,1690,1500.0
+South Carolina,1691,1594.4
+South Carolina,1692,1688.8
+South Carolina,1693,1783.2
+South Carolina,1694,1877.6
+South Carolina,1695,1972.0
+South Carolina,1696,2066.4
+South Carolina,1697,2160.8
+South Carolina,1698,2255.2
+South Carolina,1699,2349.6
+South Carolina,1700,2444.0
+South Carolina,1701,2609.6
+South Carolina,1702,2775.2
+South Carolina,1703,2940.8
+South Carolina,1704,3106.4
+South Carolina,1705,3272.0
+South Carolina,1706,3437.6
+South Carolina,1707,3603.2
+South Carolina,1708,3768.8
+South Carolina,1709,3934.4
+South Carolina,1710,4100.0
+South Carolina,1711,4890.0
+South Carolina,1712,5680.0
+South Carolina,1713,6470.0
+South Carolina,1714,7260.0
+South Carolina,1715,8050.0
+South Carolina,1716,8840.0
+South Carolina,1717,9630.0
+South Carolina,1718,10420.0
+South Carolina,1719,11210.0
+South Carolina,1720,12000.0
+South Carolina,1721,12800.0
+South Carolina,1722,13600.0
+South Carolina,1723,14400.0
+South Carolina,1724,15200.0
+South Carolina,1725,16000.0
+South Carolina,1726,16800.0
+South Carolina,1727,17600.0
+South Carolina,1728,18400.0
+South Carolina,1729,19200.0
+South Carolina,1730,20000.0
+South Carolina,1731,21000.0
+South Carolina,1732,22000.0
+South Carolina,1733,23000.0
+South Carolina,1734,24000.0
+South Carolina,1735,25000.0
+South Carolina,1736,26000.0
+South Carolina,1737,27000.0
+South Carolina,1738,28000.0
+South Carolina,1739,29000.0
+South Carolina,1740,30000.0
+South Carolina,1741,30900.0
+South Carolina,1742,31800.0
+South Carolina,1743,32700.0
+South Carolina,1744,33600.0
+South Carolina,1745,34500.0
+South Carolina,1746,35400.0
+South Carolina,1747,36300.0
+South Carolina,1748,37200.0
+South Carolina,1749,38100.0
+South Carolina,1750,39000.0
+South Carolina,1751,40833.4
+South Carolina,1752,42666.8
+South Carolina,1753,44500.2
+South Carolina,1754,46333.6
+South Carolina,1755,48167.0
+South Carolina,1756,50000.4
+South Carolina,1757,51833.8
+South Carolina,1758,53667.2
+South Carolina,1759,55500.6
+South Carolina,1760,57334.0
+South Carolina,1761,59118.4
+South Carolina,1762,60902.8
+South Carolina,1763,62687.2
+South Carolina,1764,64471.6
+South Carolina,1765,66256.0
+South Carolina,1766,68040.4
+South Carolina,1767,69824.8
+South Carolina,1768,71609.2
+South Carolina,1769,73393.6
+South Carolina,1770,75178.0
+South Carolina,1771,77360.2
+South Carolina,1772,79542.4
+South Carolina,1773,81724.6
+South Carolina,1774,83906.8
+South Carolina,1775,86089.0
+South Carolina,1776,88271.2
+South Carolina,1777,90453.4
+South Carolina,1778,92635.6
+South Carolina,1779,94817.8
+South Carolina,1780,97000.0
+South Carolina,1781,98009.4
+South Carolina,1782,99018.8
+South Carolina,1783,100028.2
+South Carolina,1784,101037.6
+South Carolina,1785,102047.0
+South Carolina,1786,103056.4
+South Carolina,1787,104065.8
+South Carolina,1788,105075.2
+South Carolina,1789,106084.6
+South Carolina,1790,107094.0
+South Carolina,1791,110999.7
+South Carolina,1792,114905.4
+South Carolina,1793,118811.1
+South Carolina,1794,122716.8
+South Carolina,1795,126622.5
+South Carolina,1796,130528.2
+South Carolina,1797,134433.9
+South Carolina,1798,138339.6
+South Carolina,1799,142245.3
+South Carolina,1800,146151.0
+South Carolina,1801,151172.4
+South Carolina,1802,156193.8
+South Carolina,1803,161215.2
+South Carolina,1804,166236.6
+South Carolina,1805,171258.0
+South Carolina,1806,176279.4
+South Carolina,1807,181300.8
+South Carolina,1808,186322.2
+South Carolina,1809,191343.6
+South Carolina,1810,196365.0
+South Carolina,1811,201906.8
+South Carolina,1812,207448.6
+South Carolina,1813,212990.4
+South Carolina,1814,218532.2
+South Carolina,1815,224074.0
+South Carolina,1816,229615.8
+South Carolina,1817,235157.6
+South Carolina,1818,240699.4
+South Carolina,1819,246241.2
+South Carolina,1820,251783.0
+South Carolina,1821,258144.8
+South Carolina,1822,264506.6
+South Carolina,1823,270868.4
+South Carolina,1824,277230.2
+South Carolina,1825,283592.0
+South Carolina,1826,289953.8
+South Carolina,1827,296315.6
+South Carolina,1828,302677.4
+South Carolina,1829,309039.2
+South Carolina,1830,315401.0
+South Carolina,1831,316564.7
+South Carolina,1832,317728.4
+South Carolina,1833,318892.1
+South Carolina,1834,320055.8
+South Carolina,1835,321219.5
+South Carolina,1836,322383.2
+South Carolina,1837,323546.9
+South Carolina,1838,324710.6
+South Carolina,1839,325874.3
+South Carolina,1840,327038.0
+South Carolina,1841,332832.6
+South Carolina,1842,338627.2
+South Carolina,1843,344421.8
+South Carolina,1844,350216.4
+South Carolina,1845,356011.0
+South Carolina,1846,361805.6
+South Carolina,1847,367600.2
+South Carolina,1848,373394.8
+South Carolina,1849,379189.4
+South Carolina,1850,384984.0
+South Carolina,1851,386726.2
+South Carolina,1852,388468.4
+South Carolina,1853,390210.6
+South Carolina,1854,391952.8
+South Carolina,1855,393695.0
+South Carolina,1856,395437.2
+South Carolina,1857,397179.4
+South Carolina,1858,398921.6
+South Carolina,1859,400663.8
+South Carolina,1860,402406.0
+South Carolina,1861,402406.0
+South Carolina,1862,402406.0
+South Carolina,1863,402406.0
+South Carolina,1864,402406.0
+South Carolina,1865,402406.0
+Tennessee,1770,200.0
+Tennessee,1771,330.0
+Tennessee,1772,460.0
+Tennessee,1773,590.0
+Tennessee,1774,720.0
+Tennessee,1775,850.0
+Tennessee,1776,980.0
+Tennessee,1777,1110.0
+Tennessee,1778,1240.0
+Tennessee,1779,1370.0
+Tennessee,1780,1500.0
+Tennessee,1781,1691.7
+Tennessee,1782,1883.4
+Tennessee,1783,2075.1
+Tennessee,1784,2266.8
+Tennessee,1785,2458.5
+Tennessee,1786,2650.2
+Tennessee,1787,2841.9
+Tennessee,1788,3033.6
+Tennessee,1789,3225.3
+Tennessee,1790,3417.0
+Tennessee,1791,4433.7
+Tennessee,1792,5450.4
+Tennessee,1793,6467.1
+Tennessee,1794,7483.8
+Tennessee,1795,8500.5
+Tennessee,1796,9517.2
+Tennessee,1797,10533.9
+Tennessee,1798,11550.6
+Tennessee,1799,12567.3
+Tennessee,1800,13584.0
+Tennessee,1801,16679.1
+Tennessee,1802,19774.2
+Tennessee,1803,22869.3
+Tennessee,1804,25964.4
+Tennessee,1805,29059.5
+Tennessee,1806,32154.6
+Tennessee,1807,35249.7
+Tennessee,1808,38344.8
+Tennessee,1809,41439.9
+Tennessee,1810,44535.0
+Tennessee,1811,48092.2
+Tennessee,1812,51649.4
+Tennessee,1813,55206.6
+Tennessee,1814,58763.8
+Tennessee,1815,62321.0
+Tennessee,1816,65878.2
+Tennessee,1817,69435.4
+Tennessee,1818,72992.6
+Tennessee,1819,76549.8
+Tennessee,1820,80107.0
+Tennessee,1821,86256.6
+Tennessee,1822,92406.2
+Tennessee,1823,98555.8
+Tennessee,1824,104705.4
+Tennessee,1825,110855.0
+Tennessee,1826,117004.6
+Tennessee,1827,123154.2
+Tennessee,1828,129303.8
+Tennessee,1829,135453.4
+Tennessee,1830,141603.0
+Tennessee,1831,145748.6
+Tennessee,1832,149894.2
+Tennessee,1833,154039.8
+Tennessee,1834,158185.4
+Tennessee,1835,162331.0
+Tennessee,1836,166476.6
+Tennessee,1837,170622.2
+Tennessee,1838,174767.8
+Tennessee,1839,178913.4
+Tennessee,1840,183059.0
+Tennessee,1841,188699.0
+Tennessee,1842,194339.0
+Tennessee,1843,199979.0
+Tennessee,1844,205619.0
+Tennessee,1845,211259.0
+Tennessee,1846,216899.0
+Tennessee,1847,222539.0
+Tennessee,1848,228179.0
+Tennessee,1849,233819.0
+Tennessee,1850,239459.0
+Tennessee,1851,243085.0
+Tennessee,1852,246711.0
+Tennessee,1853,250337.0
+Tennessee,1854,253963.0
+Tennessee,1855,257589.0
+Tennessee,1856,261215.0
+Tennessee,1857,264841.0
+Tennessee,1858,268467.0
+Tennessee,1859,272093.0
+Tennessee,1860,275719.0
+Tennessee,1861,275719.0
+Tennessee,1862,275719.0
+Tennessee,1863,275719.0
+Tennessee,1864,275719.0
+Tennessee,1865,275719.0
+Texas,1850,58161.0
+Texas,1851,70601.5
+Texas,1852,83042.0
+Texas,1853,95482.5
+Texas,1854,107923.0
+Texas,1855,120363.5
+Texas,1856,132804.0
+Texas,1857,145244.5
+Texas,1858,157685.0
+Texas,1859,170125.5
+Texas,1860,182566.0
+Texas,1861,182566.0
+Texas,1862,182566.0
+Texas,1863,182566.0
+Texas,1864,182566.0
+Texas,1865,182566.0
+Utah,1850,26.0
+Utah,1851,26.3
+Utah,1852,26.6
+Utah,1853,26.9
+Utah,1854,27.2
+Utah,1855,27.5
+Utah,1856,27.8
+Utah,1857,28.1
+Utah,1858,28.4
+Utah,1859,28.7
+Utah,1860,29.0
+Utah,1861,29.0
+Utah,1862,29.0
+Utah,1863,29.0
+Utah,1864,29.0
+Utah,1865,29.0
+Vermont,1770,25.0
+Vermont,1771,27.5
+Vermont,1772,30.0
+Vermont,1773,32.5
+Vermont,1774,35.0
+Vermont,1775,37.5
+Vermont,1776,40.0
+Vermont,1777,42.5
+Vermont,1778,45.0
+Vermont,1779,47.5
+Vermont,1780,50.0
+Vermont,1781,45.0
+Vermont,1782,40.0
+Vermont,1783,35.0
+Vermont,1784,30.0
+Vermont,1785,25.0
+Vermont,1786,20.0
+Vermont,1787,15.0
+Vermont,1788,10.0
+Vermont,1789,5.0
+Virginia,1619,20.0
+Virginia,1620,20.0
+Virginia,1621,23.0
+Virginia,1622,26.0
+Virginia,1623,29.0
+Virginia,1624,32.0
+Virginia,1625,35.0
+Virginia,1626,38.0
+Virginia,1627,41.0
+Virginia,1628,44.0
+Virginia,1629,47.0
+Virginia,1630,50.0
+Virginia,1631,60.0
+Virginia,1632,70.0
+Virginia,1633,80.0
+Virginia,1634,90.0
+Virginia,1635,100.0
+Virginia,1636,110.0
+Virginia,1637,120.0
+Virginia,1638,130.0
+Virginia,1639,140.0
+Virginia,1640,150.0
+Virginia,1641,175.5
+Virginia,1642,201.0
+Virginia,1643,226.5
+Virginia,1644,252.0
+Virginia,1645,277.5
+Virginia,1646,303.0
+Virginia,1647,328.5
+Virginia,1648,354.0
+Virginia,1649,379.5
+Virginia,1650,405.0
+Virginia,1651,459.5
+Virginia,1652,514.0
+Virginia,1653,568.5
+Virginia,1654,623.0
+Virginia,1655,677.5
+Virginia,1656,732.0
+Virginia,1657,786.5
+Virginia,1658,841.0
+Virginia,1659,895.5
+Virginia,1660,950.0
+Virginia,1661,1055.0
+Virginia,1662,1160.0
+Virginia,1663,1265.0
+Virginia,1664,1370.0
+Virginia,1665,1475.0
+Virginia,1666,1580.0
+Virginia,1667,1685.0
+Virginia,1668,1790.0
+Virginia,1669,1895.0
+Virginia,1670,2000.0
+Virginia,1671,2100.0
+Virginia,1672,2200.0
+Virginia,1673,2300.0
+Virginia,1674,2400.0
+Virginia,1675,2500.0
+Virginia,1676,2600.0
+Virginia,1677,2700.0
+Virginia,1678,2800.0
+Virginia,1679,2900.0
+Virginia,1680,3000.0
+Virginia,1681,3634.5
+Virginia,1682,4269.0
+Virginia,1683,4903.5
+Virginia,1684,5538.0
+Virginia,1685,6172.5
+Virginia,1686,6807.0
+Virginia,1687,7441.5
+Virginia,1688,8076.0
+Virginia,1689,8710.5
+Virginia,1690,9345.0
+Virginia,1691,10049.5
+Virginia,1692,10754.0
+Virginia,1693,11458.5
+Virginia,1694,12163.0
+Virginia,1695,12867.5
+Virginia,1696,13572.0
+Virginia,1697,14276.5
+Virginia,1698,14981.0
+Virginia,1699,15685.5
+Virginia,1700,16390.0
+Virginia,1701,17062.8
+Virginia,1702,17735.6
+Virginia,1703,18408.4
+Virginia,1704,19081.2
+Virginia,1705,19754.0
+Virginia,1706,20426.8
+Virginia,1707,21099.6
+Virginia,1708,21772.4
+Virginia,1709,22445.2
+Virginia,1710,23118.0
+Virginia,1711,23462.1
+Virginia,1712,23806.2
+Virginia,1713,24150.3
+Virginia,1714,24494.4
+Virginia,1715,24838.5
+Virginia,1716,25182.6
+Virginia,1717,25526.7
+Virginia,1718,25870.8
+Virginia,1719,26214.9
+Virginia,1720,26559.0
+Virginia,1721,26903.1
+Virginia,1722,27247.2
+Virginia,1723,27591.3
+Virginia,1724,27935.4
+Virginia,1725,28279.5
+Virginia,1726,28623.6
+Virginia,1727,28967.7
+Virginia,1728,29311.8
+Virginia,1729,29655.9
+Virginia,1730,30000.0
+Virginia,1731,33000.0
+Virginia,1732,36000.0
+Virginia,1733,39000.0
+Virginia,1734,42000.0
+Virginia,1735,45000.0
+Virginia,1736,48000.0
+Virginia,1737,51000.0
+Virginia,1738,54000.0
+Virginia,1739,57000.0
+Virginia,1740,60000.0
+Virginia,1741,64145.2
+Virginia,1742,68290.4
+Virginia,1743,72435.6
+Virginia,1744,76580.8
+Virginia,1745,80726.0
+Virginia,1746,84871.2
+Virginia,1747,89016.4
+Virginia,1748,93161.6
+Virginia,1749,97306.8
+Virginia,1750,101452.0
+Virginia,1751,105363.8
+Virginia,1752,109275.6
+Virginia,1753,113187.4
+Virginia,1754,117099.2
+Virginia,1755,121011.0
+Virginia,1756,124922.8
+Virginia,1757,128834.6
+Virginia,1758,132746.4
+Virginia,1759,136658.2
+Virginia,1760,140570.0
+Virginia,1761,145273.5
+Virginia,1762,149977.0
+Virginia,1763,154680.5
+Virginia,1764,159384.0
+Virginia,1765,164087.5
+Virginia,1766,168791.0
+Virginia,1767,173494.5
+Virginia,1768,178198.0
+Virginia,1769,182901.5
+Virginia,1770,187605.0
+Virginia,1771,190902.7
+Virginia,1772,194200.4
+Virginia,1773,197498.1
+Virginia,1774,200795.8
+Virginia,1775,204093.5
+Virginia,1776,207391.2
+Virginia,1777,210688.9
+Virginia,1778,213986.6
+Virginia,1779,217284.3
+Virginia,1780,220582.0
+Virginia,1781,227319.7
+Virginia,1782,234057.4
+Virginia,1783,240795.1
+Virginia,1784,247532.8
+Virginia,1785,254270.5
+Virginia,1786,261008.2
+Virginia,1787,267745.9
+Virginia,1788,274483.6
+Virginia,1789,281221.3
+Virginia,1790,287959.0
+Virginia,1791,293113.0
+Virginia,1792,298267.0
+Virginia,1793,303421.0
+Virginia,1794,308575.0
+Virginia,1795,313729.0
+Virginia,1796,318883.0
+Virginia,1797,324037.0
+Virginia,1798,329191.0
+Virginia,1799,334345.0
+Virginia,1800,339499.0
+Virginia,1801,343901.2
+Virginia,1802,348303.4
+Virginia,1803,352705.6
+Virginia,1804,357107.8
+Virginia,1805,361510.0
+Virginia,1806,365912.2
+Virginia,1807,370314.4
+Virginia,1808,374716.6
+Virginia,1809,379118.8
+Virginia,1810,383521.0
+Virginia,1811,386357.5
+Virginia,1812,389194.0
+Virginia,1813,392030.5
+Virginia,1814,394867.0
+Virginia,1815,397703.5
+Virginia,1816,400540.0
+Virginia,1817,403376.5
+Virginia,1818,406213.0
+Virginia,1819,409049.5
+Virginia,1820,411886.0
+Virginia,1821,416067.2
+Virginia,1822,420248.4
+Virginia,1823,424429.6
+Virginia,1824,428610.8
+Virginia,1825,432792.0
+Virginia,1826,436973.2
+Virginia,1827,441154.4
+Virginia,1828,445335.6
+Virginia,1829,449516.8
+Virginia,1830,453698.0
+Virginia,1831,451515.5
+Virginia,1832,449333.0
+Virginia,1833,447150.5
+Virginia,1834,444968.0
+Virginia,1835,442785.5
+Virginia,1836,440603.0
+Virginia,1837,438420.5
+Virginia,1838,436238.0
+Virginia,1839,434055.5
+Virginia,1840,431873.0
+Virginia,1841,433888.5
+Virginia,1842,435904.0
+Virginia,1843,437919.5
+Virginia,1844,439935.0
+Virginia,1845,441950.5
+Virginia,1846,443966.0
+Virginia,1847,445981.5
+Virginia,1848,447997.0
+Virginia,1849,450012.5
+Virginia,1850,452028.0
+Virginia,1851,454074.6
+Virginia,1852,456121.2
+Virginia,1853,458167.8
+Virginia,1854,460214.4
+Virginia,1855,462261.0
+Virginia,1856,464307.6
+Virginia,1857,466354.2
+Virginia,1858,468400.8
+Virginia,1859,470447.4
+Virginia,1860,472494.0
+Virginia,1861,472494.0
+Virginia,1862,472494.0
+Virginia,1863,472494.0
+Virginia,1864,472494.0
+Virginia,1865,472494.0
+West Virginia,1790,4668.0
+West Virginia,1791,4918.4
+West Virginia,1792,5168.8
+West Virginia,1793,5419.2
+West Virginia,1794,5669.6
+West Virginia,1795,5920.0
+West Virginia,1796,6170.4
+West Virginia,1797,6420.8
+West Virginia,1798,6671.2
+West Virginia,1799,6921.6
+West Virginia,1800,7172.0
+West Virginia,1801,7538.4
+West Virginia,1802,7904.8
+West Virginia,1803,8271.2
+West Virginia,1804,8637.6
+West Virginia,1805,9004.0
+West Virginia,1806,9370.4
+West Virginia,1807,9736.8
+West Virginia,1808,10103.2
+West Virginia,1809,10469.6
+West Virginia,1810,10836.0
+West Virginia,1811,11270.2
+West Virginia,1812,11704.4
+West Virginia,1813,12138.6
+West Virginia,1814,12572.8
+West Virginia,1815,13007.0
+West Virginia,1816,13441.2
+West Virginia,1817,13875.4
+West Virginia,1818,14309.6
+West Virginia,1819,14743.8
+West Virginia,1820,15178.0
+West Virginia,1821,15427.5
+West Virginia,1822,15677.0
+West Virginia,1823,15926.5
+West Virginia,1824,16176.0
+West Virginia,1825,16425.5
+West Virginia,1826,16675.0
+West Virginia,1827,16924.5
+West Virginia,1828,17174.0
+West Virginia,1829,17423.5
+West Virginia,1830,17673.0
+West Virginia,1831,17754.5
+West Virginia,1832,17836.0
+West Virginia,1833,17917.5
+West Virginia,1834,17999.0
+West Virginia,1835,18080.5
+West Virginia,1836,18162.0
+West Virginia,1837,18243.5
+West Virginia,1838,18325.0
+West Virginia,1839,18406.5
+West Virginia,1840,18488.0
+West Virginia,1841,18682.0
+West Virginia,1842,18876.0
+West Virginia,1843,19070.0
+West Virginia,1844,19264.0
+West Virginia,1845,19458.0
+West Virginia,1846,19652.0
+West Virginia,1847,19846.0
+West Virginia,1848,20040.0
+West Virginia,1849,20234.0
+West Virginia,1850,20428.0
+West Virginia,1851,20222.3
+West Virginia,1852,20016.6
+West Virginia,1853,19810.9
+West Virginia,1854,19605.2
+West Virginia,1855,19399.5
+West Virginia,1856,19193.8
+West Virginia,1857,18988.1
+West Virginia,1858,18782.4
+West Virginia,1859,18576.7
+West Virginia,1860,18371.0
+West Virginia,1861,18371.0
+West Virginia,1862,18371.0
+West Virginia,1863,18371.0
+West Virginia,1864,18371.0
+West Virginia,1865,18371.0

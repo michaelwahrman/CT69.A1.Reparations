@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Labor Value and Land</title>
+<style>
+:root{
+  --surface-0:#f6f6f4; --surface-1:#fcfcfb; --border:#dddcd6;
+  --text-primary:#0b0b0b; --text-secondary:#52514e; --text-muted:#7a7974;
+  --accent:#2a78d6; --warn-bg:#fff4dc; --warn-ink:#6b4a00;
+  --t1:#2a78d6; --t2:#eb6834; --t3:#1baf7a; --t4:#eda100;
+  --scene:#eeeeea; --zero:#d8d7d2;
+  --seq-lo:#cde2fb; --seq-hi:#104281;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --surface-0:#121211; --surface-1:#1a1a19; --border:#33332f;
+    --text-primary:#f0efec; --text-secondary:#c3c2b7; --text-muted:#8f8e86;
+    --accent:#3987e5; --warn-bg:#2b2410; --warn-ink:#f2d58a;
+    --t1:#3987e5; --t2:#d95926; --t3:#199e70; --t4:#c98500;
+    --scene:#161615; --zero:#383835;
+    --seq-lo:#184f95; --seq-hi:#cde2fb;
+  }
+}
+:root[data-theme="dark"]{
+  --surface-0:#121211; --surface-1:#1a1a19; --border:#33332f;
+  --text-primary:#f0efec; --text-secondary:#c3c2b7; --text-muted:#8f8e86;
+  --accent:#3987e5; --warn-bg:#2b2410; --warn-ink:#f2d58a;
+  --t1:#3987e5; --t2:#d95926; --t3:#199e70; --t4:#c98500;
+  --scene:#161615; --zero:#383835; --seq-lo:#184f95; --seq-hi:#cde2fb;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--surface-0);color:var(--text-primary);font:14px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif}
+header{padding:16px 20px 8px}
+h1{font-size:20px;margin:0 0 4px}
+.sub{color:var(--text-secondary);margin:0;max-width:900px}
+.controls{display:flex;flex-wrap:wrap;gap:16px 24px;align-items:center;padding:10px 20px;border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:var(--surface-1)}
+.controls label{color:var(--text-secondary);font-size:13px}
+.seg{display:inline-flex;border:1px solid var(--border);border-radius:6px;overflow:hidden}
+.seg button{border:0;background:transparent;color:var(--text-secondary);padding:6px 10px;font:inherit;font-size:13px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--accent);color:#fff}
+input[type=range]{width:220px;accent-color:var(--accent)}
+.rate{font-variant-numeric:tabular-nums;font-weight:600;min-width:44px;display:inline-block}
+main{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:0;align-items:start}
+aside{max-height:min(72vh,680px)}
+#scene{position:relative;background:var(--scene);height:min(72vh,680px);min-height:420px;overflow:hidden}
+#scene canvas{position:absolute;inset:0;display:block;width:100%;height:100%}
+aside{border-left:1px solid var(--border);background:var(--surface-1);padding:16px 18px;overflow:auto}
+.hero{font-size:30px;font-weight:700;font-variant-numeric:tabular-nums;margin:2px 0}
+.k{color:var(--text-secondary);font-size:12px;text-transform:uppercase;letter-spacing:.04em;margin-top:14px}
+.v{font-variant-numeric:tabular-nums}
+.warn{background:var(--warn-bg);color:var(--warn-ink);border-radius:6px;padding:8px 10px;font-size:13px;margin-top:12px}
+.legend{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--text-secondary);margin-top:6px}
+.ramp{height:10px;flex:1;border-radius:3px;background:linear-gradient(90deg,var(--seq-lo),var(--seq-hi))}
+.swatch{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+#tip{position:absolute;pointer-events:none;background:var(--surface-1);color:var(--text-primary);border:1px solid var(--border);border-radius:8px;padding:10px 12px;font-size:12.5px;min-width:250px;max-width:300px;box-shadow:0 4px 16px rgba(0,0,0,.25);display:none;z-index:5}
+#tip h3{margin:0 0 6px;font-size:14px}
+#tip .row{display:flex;justify-content:space-between;gap:12px}
+#tip .row span:first-child{color:var(--text-secondary)}
+.bar{display:flex;height:10px;border-radius:3px;overflow:hidden;margin:6px 0 4px;background:var(--zero);gap:2px}
+.bar div{height:100%}
+section.tbl{padding:12px 20px 40px}
+table{border-collapse:collapse;width:100%;font-size:12.5px;font-variant-numeric:tabular-nums}
+th,td{padding:5px 8px;border-bottom:1px solid var(--border);text-align:right;white-space:nowrap}
+th:first-child,td:first-child{text-align:left}
+th{color:var(--text-secondary);font-weight:600;cursor:pointer;position:sticky;top:0;background:var(--surface-0)}
+.tblwrap{overflow-x:auto;max-height:520px}
+a{color:var(--accent)}
+.hidden{display:none!important}
+main.noinfo{grid-template-columns:1fr}
+#infoBtn{border:1px solid var(--border);background:transparent;color:var(--text-secondary);border-radius:6px;padding:6px 12px;font:inherit;font-size:13px;cursor:pointer}
+#infoBtn[aria-pressed="true"]{background:var(--accent);color:#fff;border-color:var(--accent)}
+footer{color:var(--text-muted);font-size:12px;padding:0 20px 30px;max-width:1000px}
+@media (max-width:900px){main{grid-template-columns:1fr} aside{border-left:0;border-top:1px solid var(--border)} #scene{height:420px} aside{max-height:none} header,.controls,section.tbl,footer{padding-left:16px;padding-right:16px}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Enslaved labor in the US, 1619–1865: present value and what it would buy in land</h1>
+  <p class="sub hidden info" id="intro">A clinical estimate of the value of the labor only, priced at free-market unskilled wages and brought to 2025 dollars at a chosen <b>real</b> interest rate. Purchases go to non-family corporate farmland first, then partnerships and family-held corporations, then family farms, then other non-federal land. Federal land and tribal/trust farmland are excluded. Assumptions and sources: <a href="docs/METHODOLOGY.html">METHODOLOGY</a> · <a href="docs/QA_REPORT.html">QA report</a>.</p>
+</header>
+<div class="controls" role="group" aria-label="Chart controls">
+  <button id="infoBtn" aria-pressed="false" title="Show or hide the explanation, totals, legend and table">Info</button>
+  <span><label for="rate">Real interest rate</label>&nbsp; <input id="rate" type="range" min="0" step="1" value="0"> <span class="rate" id="rateLbl"></span></span>
+  <span><label>Land bought in</label>&nbsp; <span class="seg" id="mode">
+    <button data-v="where_worked" aria-pressed="true">State where the labor was done</button>
+    <button data-v="national_spread" aria-pressed="false">All states, same share</button></span></span>
+  <span><label>Height shows</label>&nbsp; <span class="seg" id="metric">
+    <button data-v="pct" aria-pressed="true">% of non-federal land</button>
+    <button data-v="cost" aria-pressed="false">Cost of land</button>
+    <button data-v="value" aria-pressed="false">Labor value (log)</button></span></span>
+</div>
+<main class="noinfo">
+  <div id="scene" aria-label="3D map of US states; height and color encode the selected measure. A table version follows below."><div id="tip"></div></div>
+  <aside class="hidden info">
+    <div class="k">Present value of the labor, 2025 $</div>
+    <div class="hero" id="pv"></div>
+    <div class="v" id="pvband" style="color:var(--text-secondary)"></div>
+    <div class="k">Compared with all buyable land (48 states)</div>
+    <div class="v" id="landshare"></div>
+    <div class="warn" id="warn"></div>
+    <div class="k">Legend (height and color)</div>
+    <div class="legend"><span id="legLo">0</span><div class="ramp"></div><span id="legHi"></span></div>
+    <div class="legend"><span class="swatch" style="background:var(--zero)"></span>no purchase / no recorded slavery / no USDA land price</div>
+    <div class="k">Purchase order (tooltip bars)</div>
+    <div class="legend" style="display:block;line-height:1.9">
+      <div><span class="swatch" style="background:var(--t1)"></span>1. Non-family corporate farmland</div>
+      <div><span class="swatch" style="background:var(--t2)"></span>2. Partnerships &amp; family-held corporations</div>
+      <div><span class="swatch" style="background:var(--t3)"></span>3. Family / individual farms</div>
+      <div><span class="swatch" style="background:var(--t4)"></span>4. Other non-federal land</div>
+    </div>
+    <div class="k">People</div>
+    <div class="v" id="people"></div>
+    <div class="k">Middle Passage (separate estimate)</div>
+    <div class="v" id="lives"></div>
+  </aside>
+</main>
+<section class="tbl hidden info">
+  <h2 style="font-size:16px">Table view <span style="font-weight:400;color:var(--text-secondary);font-size:13px">(click a header to sort)</span></h2>
+  <div class="tblwrap"><table id="tbl"><thead></thead><tbody></tbody></table></div>
+</section>
+<footer id="foot" class="hidden info"></footer>
+
+<script src="web/data/model_results.js"></script>
+<script src="web/data/states.js"></script>
+<script src="lib/three/three.min.js"></script>
+<script src="lib/three/OrbitControls.js"></script>
+<script>
+(function () {
+
+const R = window.RESULTS, GEO = window.STATES_GEO;
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const Q = new URLSearchParams(location.search);
+const state = { ri: Math.max(0, R.rates.indexOf(Q.has('rate') ? +Q.get('rate') : R.params.default_rate)), mode: Q.get('mode') || 'where_worked', metric: Q.get('metric') || 'pct' };
+const fmt$ = v => { if (v == null) return '–'; const a = Math.abs(v);
+  if (a >= 1e15) return '$' + (v/1e15).toLocaleString(undefined,{maximumFractionDigits:1}) + ' quadrillion';
+  if (a >= 1e12) return '$' + (v/1e12).toLocaleString(undefined,{maximumFractionDigits:1}) + 'T';
+  if (a >= 1e9) return '$' + (v/1e9).toFixed(1) + 'B'; if (a >= 1e6) return '$' + (v/1e6).toFixed(1) + 'M';
+  return '$' + Math.round(v).toLocaleString(); };
+const fmtN = v => v == null ? '–' : Math.round(v).toLocaleString();
+const fmtP = v => v == null ? '–' : (v*100 >= 99.95 ? '100%' : (v*100).toFixed(v < 0.01 ? 2 : 1) + '%');
+const rateKey = () => String(R.rates[state.ri]);
+const rec = s => s.by_rate[rateKey()][state.mode];
+
+// ---------- scene
+const host = document.getElementById('scene');
+const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true }); // keeps the frame for screenshots
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.outputEncoding = THREE.sRGBEncoding; // r147: material colors are converted sRGB->linear below
+host.appendChild(renderer.domElement);
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(38, 1, 1, 5000);
+camera.position.set(0, 720, 560);
+const controls = new THREE.OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true; controls.maxPolarAngle = Math.PI * 0.47; controls.target.set(0, 0, 20);
+scene.add(new THREE.HemisphereLight(0xffffff, 0x555555, 0.75));
+const sun = new THREE.DirectionalLight(0xffffff, 0.55); sun.position.set(-300, 600, 400); scene.add(sun);
+
+const byName = Object.fromEntries(R.states.map(s => [s.state, s]));
+const meshes = [];
+const MAXH = 120, CX = 487, CY = 305;
+for (const [name, polys] of Object.entries(GEO)) {
+  if (!byName[name]) continue;
+  const shapes = polys.map(rings => {
+    const toV = ([x, y]) => new THREE.Vector2(x - CX, -(y - CY));
+    const sh = new THREE.Shape(rings[0].map(toV));
+    rings.slice(1).forEach(h => sh.holes.push(new THREE.Path(h.map(toV))));
+    return sh;
+  });
+  const g = new THREE.ExtrudeGeometry(shapes, { depth: 1, bevelEnabled: false });
+  g.rotateX(-Math.PI / 2);
+  const m = new THREE.Mesh(g, new THREE.MeshStandardMaterial({ roughness: 0.75, metalness: 0.05 }));
+  const edges = new THREE.LineSegments(new THREE.EdgesGeometry(g, 30), new THREE.LineBasicMaterial({ transparent: true, opacity: 0.35 }));
+  m.add(edges);
+  m.userData = { name, target: 1, edges };
+  scene.add(m); meshes.push(m);
+}
+
+function metricValue(s) {
+  const r = rec(s);
+  if (state.metric === 'pct') return s.tiers_acres ? r.pct_nonfederal : null;
+  if (state.metric === 'cost') return s.tiers_acres ? r.cost : null;
+  return r.value > 0 ? r.value : null;
+}
+function scaleFn() {
+  const vals = R.states.map(metricValue).filter(v => v != null && v > 0);
+  const max = Math.max(...vals, 1e-9), min = Math.min(...vals, max);
+  if (state.metric === 'pct') return { f: v => v, lo: '0%', hi: '100%' };
+  if (state.metric === 'cost') return { f: v => v / max, lo: '$0', hi: fmt$(max) };
+  const lmin = Math.log10(min), lmax = Math.log10(max);
+  return { f: v => lmax > lmin ? 0.08 + 0.92 * (Math.log10(v) - lmin) / (lmax - lmin) : 1, lo: fmt$(min), hi: fmt$(max) };
+}
+const cLo = () => new THREE.Color(css('--seq-lo')), cHi = () => new THREE.Color(css('--seq-hi'));
+function update() {
+  const sc = scaleFn(), lo = cLo(), hi = cHi(), zero = new THREE.Color(css('--zero'));
+  for (const m of meshes) {
+    const v = metricValue(byName[m.userData.name]);
+    const t = (v == null || v <= 0) ? 0 : Math.max(0, Math.min(1, sc.f(v)));
+    m.userData.target = 1.5 + t * MAXH;
+    m.material.color.copy(t === 0 ? zero : lo.clone().lerp(hi, t)).convertSRGBToLinear();
+    m.userData.edges.material.color.set(css('--surface-0')).convertSRGBToLinear();
+  }
+  scene.background = new THREE.Color(css('--scene'));
+  document.getElementById('legLo').textContent = sc.lo;
+  document.getElementById('legHi').textContent = sc.hi;
+  panel(); table();
+}
+
+// ---------- side panel
+function panel() {
+  const k = rateKey(), n = R.national[k], r = R.rates[state.ri];
+  document.getElementById('rateLbl').textContent = (r * 100).toFixed(1) + '%';
+  document.getElementById('pv').textContent = fmt$(n.pv);
+  document.getElementById('pvband').textContent = `range ${fmt$(n.pv_low)} – ${fmt$(n.pv_high)} (participation ${R.params.labor_participation_range.join('–')}, ${R.params.hours_range.join('–')} h/yr)`;
+  const share = n.pv / R.national_buyable_value;
+  document.getElementById('landshare').innerHTML = `${(share*100).toLocaleString(undefined,{maximumFractionDigits:1})}% of the ${fmt$(R.national_buyable_value)} of buyable non-federal land in the 48 contiguous states (priced at USDA 2025 farm real-estate $/acre)`;
+  const w = document.getElementById('warn');
+  w.textContent = share >= 1
+    ? `At ${(r*100).toFixed(1)}% the value is ${share >= 10 ? Math.round(share).toLocaleString() + '×' : share.toFixed(1) + '×'} all buyable land, so every state with slave labor is bought out completely and money is left over. The rate assumption dominates the result: each extra point of real interest multiplies the total about 7–20×.`
+    : `At ${(r*100).toFixed(1)}% the value covers ${(share*100).toFixed(1)}% of all buyable land. The rate assumption dominates the result.`;
+  document.getElementById('people').innerHTML =
+    `${fmtN(R.person_years)} person-years enslaved (census and colonial estimates, 1619–1865); ${fmtN(R.lives_lost.disembarked)} people landed directly from Africa (SlaveVoyages estimate). Enslaved in 1860: ${fmtN(R.states.reduce((a,s)=>a+s.enslaved_1860,0))}.`;
+  const L = R.lives_lost;
+  document.getElementById('lives').innerHTML =
+    `${fmtN(L.deaths)} died at sea of ${fmtN(L.embarked)} embarked for mainland North America (${(100*L.deaths/L.embarked).toFixed(1)}%).<br>` +
+    `Value of a statistical life (US DOT): ${fmt$(L.vsl_total)}. Forgone labor at this rate: ${fmt$(L.forgone_labor_by_rate[k])}. Kept separate from the labor total.`;
+}
+
+// ---------- tooltip
+const tip = document.getElementById('tip'), ray = new THREE.Raycaster(), mouse = new THREE.Vector2();
+let hovered = null;
+renderer.domElement.addEventListener('pointermove', e => {
+  const b = renderer.domElement.getBoundingClientRect();
+  mouse.set(((e.clientX - b.left) / b.width) * 2 - 1, -((e.clientY - b.top) / b.height) * 2 + 1);
+  ray.setFromCamera(mouse, camera);
+  const hit = ray.intersectObjects(meshes, false)[0];
+  if (hovered && (!hit || hit.object !== hovered)) { hovered.material.emissive.setHex(0); hovered = null; }
+  if (!hit) { tip.style.display = 'none'; return; }
+  hovered = hit.object; hovered.material.emissive.setHex(0x222222);
+  const s = byName[hovered.userData.name], r = rec(s);
+  const t = r.acres_by_tier || {}, tot = s.tiers_acres ? Object.values(s.tiers_acres).reduce((a, b) => a + b, 0) : 0;
+  const keys = ['corp_nonfamily', 'partnership_and_family_corp', 'family_individual', 'other_nonfederal_land'];
+  const bar = tot ? keys.map((k, i) => `<div style="width:${100 * (t[k] || 0) / tot}%;background:var(--t${i + 1})"></div>`).join('') : '';
+  tip.innerHTML = `<h3>${s.state}</h3>
+   <div class="row"><span>Enslaved 1790 / 1860</span><span>${fmtN(s.enslaved_1790)} / ${fmtN(s.enslaved_1860)}</span></div>
+   <div class="row"><span>Value assigned here</span><span>${fmt$(r.value)}</span></div>
+   <div class="row"><span>Land bought</span><span>${s.tiers_acres ? fmtN(r.acres) + ' ac' : 'no USDA price'}</span></div>
+   <div class="row"><span>% of non-federal land</span><span>${fmtP(r.pct_nonfederal)}</span></div>
+   <div class="row"><span>Cost at 2025 farm prices</span><span>${fmt$(r.cost)}</span></div>
+   <div class="row"><span>Unspent</span><span>${fmt$(r.leftover)}</span></div>
+   ${bar ? `<div class="bar" title="share of buyable land, by purchase tier">${bar}</div>` : ''}
+   ${s.tiers_acres ? `<div class="row"><span>Corporate (non-family) bought</span><span>${fmtN(t.corp_nonfamily)} ac</span></div>
+   <div class="row"><span>Family / individual farms bought</span><span>${fmtN(t.family_individual)} ac</span></div>` : ''}
+   ${s.withheld_imputed ? `<div style="color:var(--text-muted);margin-top:4px">USDA withheld: ${s.withheld_imputed.replaceAll('_', ' ')} (imputed)</div>` : ''}`;
+  tip.style.display = 'block';
+  const x = e.clientX - b.left + 16, y = e.clientY - b.top + 16;
+  tip.style.left = Math.min(x, b.width - 310) + 'px'; tip.style.top = Math.min(y, b.height - tip.offsetHeight - 8) + 'px';
+});
+renderer.domElement.addEventListener('pointerleave', () => { tip.style.display = 'none'; });
+
+// ---------- table
+let sortKey = 'value', sortDir = -1;
+const COLS = [['state', 'State'], ['enslaved_1860', 'Enslaved 1860'], ['person_years', 'Person-years'], ['value', 'Value assigned'],
+  ['acres', 'Acres bought'], ['pct', '% non-fed. land'], ['corp', 'Corp. acres'], ['family', 'Family-farm acres'], ['cost', 'Cost'], ['leftover', 'Unspent']];
+function table() {
+  const rows = R.states.map(s => { const r = rec(s), t = r.acres_by_tier || {};
+    return { state: s.state, enslaved_1860: s.enslaved_1860, person_years: s.person_years, value: r.value, acres: s.tiers_acres ? r.acres : null,
+      pct: s.tiers_acres ? r.pct_nonfederal : null, corp: t.corp_nonfamily, family: t.family_individual, cost: r.cost, leftover: r.leftover }; });
+  rows.sort((a, b) => { const x = a[sortKey], y = b[sortKey]; if (typeof x === 'string') return sortDir * x.localeCompare(y); return sortDir * ((x ?? -1) - (y ?? -1)); });
+  const th = document.querySelector('#tbl thead');
+  th.innerHTML = '<tr>' + COLS.map(([k, l]) => `<th data-k="${k}">${l}${k === sortKey ? (sortDir < 0 ? ' ▾' : ' ▴') : ''}</th>`).join('') + '</tr>';
+  th.querySelectorAll('th').forEach(h => h.onclick = () => { const k = h.dataset.k; sortDir = k === sortKey ? -sortDir : -1; sortKey = k; table(); });
+  document.querySelector('#tbl tbody').innerHTML = rows.map(r => `<tr><td>${r.state}</td><td>${fmtN(r.enslaved_1860)}</td><td>${fmtN(r.person_years)}</td>
+    <td>${fmt$(r.value)}</td><td>${fmtN(r.acres)}</td><td>${fmtP(r.pct)}</td><td>${fmtN(r.corp)}</td><td>${fmtN(r.family)}</td><td>${fmt$(r.cost)}</td><td>${fmt$(r.leftover)}</td></tr>`).join('');
+}
+
+// ---------- controls
+const slider = document.getElementById('rate');
+slider.max = R.rates.length - 1; slider.value = state.ri;
+slider.oninput = slider.onchange = () => { state.ri = +slider.value; update(); };
+for (const [id, key] of [['mode', 'mode'], ['metric', 'metric']]) {
+  const btns = document.querySelectorAll(`#${id} button`);
+  btns.forEach(b => b.setAttribute('aria-pressed', b.dataset.v === state[key]));
+  btns.forEach(b => b.onclick = () => {
+    state[key] = b.dataset.v;
+    btns.forEach(x => x.setAttribute('aria-pressed', x === b));
+    update();
+  });
+}
+// Info displays are OFF initially (phones): one button toggles intro, totals panel, table and footer.
+const infoBtn = document.getElementById('infoBtn');
+function setInfo(on) {
+  document.querySelectorAll('.info').forEach(el => el.classList.toggle('hidden', !on));
+  document.querySelector('main').classList.toggle('noinfo', !on);
+  infoBtn.setAttribute('aria-pressed', on);
+}
+infoBtn.onclick = () => setInfo(infoBtn.getAttribute('aria-pressed') !== 'true');
+setInfo(Q.get('info') === '1');
+document.getElementById('foot').innerHTML = `Base year ${R.base_year}. Labor: enslaved population × ${R.params.labor_participation} participation × ${R.params.hours_per_worker_year} h/yr × unskilled hourly wage (MeasuringWorth), in constant ${R.base_year} dollars. Benchmark: rebuilt the way Craemer (2015) did it (1776–1865, nominal wages compounded at 3% to 2009), this model gives ${fmt$(R.benchmark_craemer_style_2009usd)} vs. his published $5.9–14.2T. Land: CRS R42346 (2024 federal acreage), USDA 2022 Census of Agriculture Table 45 (legal status), USDA NASS Land Values 2025. Alaska, Hawaii and DC have no USDA land price and are not bought.`;
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', update);
+
+let framed = false;
+function resize() {
+  const w = host.clientWidth, h = host.clientHeight; renderer.setSize(w, h, false); camera.aspect = w / h; camera.updateProjectionMatrix();
+  if (!framed) { // fit the ~980-unit-wide map horizontally (and ~620 deep vertically)
+    const vh = Math.tan(THREE.MathUtils.degToRad(camera.fov / 2)), hh = vh * camera.aspect;
+    const d = Math.max(520 / hh, 400 / vh);
+    camera.position.set(0, d * 0.8, d * 0.6).add(controls.target); framed = true;
+  }
+}
+new ResizeObserver(resize).observe(host); resize();
+update();
+for (const m of meshes) m.scale.y = m.userData.target; // first frame drawn at final heights (no animation needed)
+controls.update(); renderer.render(scene, camera);
+(function loop() {
+  for (const m of meshes) { m.scale.y += (m.userData.target - m.scale.y) * 0.15; }
+  controls.update(); renderer.render(scene, camera); requestAnimationFrame(loop);
+})();
+})();
+</script>
+</body>
+</html>

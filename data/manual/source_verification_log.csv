@@ -1,0 +1,24 @@
+# Every externally sourced number used or quoted by the project, and where it was checked against its source.
+# method: auto = re-checked by scripts/03_qa.py on every run against the saved source file;
+#         visual = read from a rendered image of a scanned page (date given); browser = read on the live web page (date given).
+# status: verified | partial (secondary or incomplete source; quoted for context only, NOT used in any calculation) | unverified
+id,claim,value_used,source,where_checked,method,status,used_in_calculation,note
+V01,Embarked for mainland North America 1501-1866 (estimates),472381,SlaveVoyages Estimates,data/manual/slavevoyages_estimates_mainland_na_by_decade.csv (copied from web form 2026-11-12; decade rows sum to page Totals row),auto (T2),verified,yes,Imputed estimates; not a count
+V02,Disembarked in mainland North America (estimates),388743,SlaveVoyages Estimates,same as V01,auto (T2),verified,yes,
+V03,Documented-voyage mortality mainland N. America,16.1%,SlaveVoyages tastdb-exp-2019.csv,data/raw/tastdb-exp-2019.csv MJSELIMP1=20000,auto (T7),verified,no (cross-check),
+V04,Colonial Black population by colony 1630-1780,HSUS Z1-19 table,Historical Statistics of the US Colonial Times to 1970 p.1168,data/raw/hsus_colonial_chZ.pdf page index 15 (scan),visual 2026-11-12 + auto column-sum check (T1),verified,yes,Every column equals the printed total
+V05,Enslaved population by state 1790-1860,census table,US Census via Wikipedia rev 1382810880,data/raw/wikipedia_...wikitext,auto (T3 vs official national totals),verified,yes,State sums within 0.05% of official totals each year
+V06,Official national slave totals 1790-1860 (1860 = 3953760),see census1860_intro_slave_totals.csv,1860 Census Population vol. Introduction p. viii,data/raw/census1860_slaves_intro.pdf page index 6 (scan),visual 2026-11-12,verified,yes (QA reference),
+V07,Unskilled labor cost index 1774-1940 and production-worker hourly comp 1790-,MeasuringWorth series,Officer & Williamson (MeasuringWorth),data/raw/mw_uswage.html,auto (parsed; M3),verified,yes,
+V08,CPI 1774-2025 (2025 = 321.94),MeasuringWorth CPI,Williamson (MeasuringWorth),data/raw/mw_uscpi.html,auto (parsed),verified,yes,
+V09,Farm real estate $/acre by state 2025; US average 4350,NASS Land Values 2025,USDA NASS Aug 2025,data/raw/land0825.txt,auto (T6 weighted-average check),verified,yes,
+V10,Farmland by legal status by state 2022 (US non-family corporate 16586984 of 880100848 acres),Table 45,USDA 2022 Census of Agriculture,data/raw/coa2022_usv1.txt,auto (T5 category sums),verified,yes,
+V11,Rented or leased land in farms 2022 = 345889019 acres (39%),Table 11,USDA 2022 Census of Agriculture,data/raw/coa2022_usv1.txt line ~1490,auto (L7),verified,no (context),
+V12,Total and federal acres by state (US 2271343360 / 615203294),CRS R42346 Table 1,Congressional Research Service,data/raw/crs_R42346_federal_land_ownership.html,auto (T4 sums = US row),verified,yes,
+V13,Value of a statistical life 2025 = $14.2 million,14200000,US DOT VSL guidance page,https://www.transportation.gov/office-policy/transportation-policy/revised-departmental-guidance-on-valuation-of-a-statistical-life-in-economic-analysis,browser 2026-11-12 (text: 'VSL estimate of $14.2 million for analyses using a base year of 2025'),verified,yes (item 5 only),Site blocks scripted downloads so not auto-rechecked
+V14,Craemer 2015 PV of slave labor $5.9 to $14.2 trillion (2009$),5.9e12-14.2e12,Craemer (2015) SSQ abstract,data/raw/craemer2015_repec.html,auto (L1),verified,no (benchmark),
+V15,About 10 million people enslaved in the US 1619-1865; 410 billion hours of labor,10e6; 410e9 h,Hacker (2020) Slavery & Abolition,data/raw/hacker2020_pmc.html,auto (L2; M6 hours cross-check),verified,no (benchmark),
+V16,1850 enslaved by occupation (cotton 1815000; tobacco 350000; sugar 150000; rice 125000; hemp 60000; towns 400000),see SECTORS_1850,De Bow Statistical View p.94 as quoted by Evans (1962) NBER p.188 fn 4,data/raw/nber_c0606_evans1962.pdf,auto (L3),verified (secondary quote of De Bow),display only,De Bow gives no basis for the figures
+V17,About 1 million people forcibly moved interstate 1790-1860,~1000000,Wikipedia citing Morgan (2002),not checked against a primary or scholarly source,none,unverified,no,Quoted in METHODOLOGY for context only
+V18,About 50000 people reshipped from the Caribbean to North America 1701-75,~50000,O'Malley (2014) as summarized in Klooster's review,web search summary only; book not consulted,none,partial,no,Partial period; secondary
+V19,Tennessee 1790 (Southwest Territory) 3417 excluded from census 'All States' 694207,3417,Census table (Wikipedia),wikitext table,auto (T3 note),verified,yes,

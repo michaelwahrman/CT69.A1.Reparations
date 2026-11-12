@@ -1,0 +1,98 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CT69.A1.Reparations: Methodology, sources, assumptions</title><style>:root{--bg:#fcfcfb;--ink:#0b0b0b;--muted:#52514e;--line:#dddcd6;--code:#f0efec;--a:#2a78d6;--pass:#0a7a3d;--fail:#b3261e}
+@media (prefers-color-scheme:dark){:root{--bg:#1a1a19;--ink:#f0efec;--muted:#c3c2b7;--line:#33332f;--code:#262624;--a:#6da7ec;--pass:#5fd08f;--fail:#ff8a80}}
+body{background:var(--bg);color:var(--ink);font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif;max-width:1100px;margin:0 auto;padding:24px 16px 60px}
+h1{font-size:24px}h2{font-size:19px;margin-top:28px;border-bottom:1px solid var(--line);padding-bottom:4px}h3{font-size:16px}
+a{color:var(--a)}code{background:var(--code);padding:1px 4px;border-radius:4px;font-size:.92em}pre{background:var(--code);padding:10px 12px;border-radius:6px;overflow:auto}
+pre code{background:none;padding:0}.tw{overflow-x:auto}table{border-collapse:collapse;font-size:13px;margin:10px 0}
+th,td{border-bottom:1px solid var(--line);padding:5px 8px;text-align:left;vertical-align:top}th{color:var(--muted)}
+.PASS{color:var(--pass);font-weight:700}.FAIL{color:var(--fail);font-weight:700}hr{border:0;border-top:1px solid var(--line)}</style></head><body>
+<!-- generated from METHODOLOGY.md by scripts/04_docs.py; edit the .md, not this file -->
+<h1>CT69.A1.Reparations: Methodology, sources, assumptions</h1>
+<p>Status: first full pass, 2026-11-12. All numbers come from <code>python scripts/run_all.py</code>; see <code>data/processed/</code>.</p>
+<p><strong>Scope.</strong> This values the <em>labor</em> of enslaved people in what became the United States, 1619–1865, as a clinical economic quantity. It does <strong>not</strong> value the harm of enslavement, lost freedom, violence, family separation, or post-1865 discrimination. Every figure is a model output under stated assumptions, not a measurement. The interest-rate assumption dominates everything else (§5).</p>
+<hr>
+<h2>1. Questions and headline answers</h2>
+<div class="tw"><table>
+<tr><th>#</th><th>Question</th><th>Answer (source / method)</th><th>Confidence</th></tr>
+<tr><td>1a</td><td>Africans embarked on ships bound for mainland North America</td><td><strong>472,381</strong> (SlaveVoyages <em>Estimates</em>, 1501–1866)</td><td>Medium. These are imputed estimates; ±10–15% is plausible.</td></tr>
+<tr><td>1b</td><td>Died in transit (Middle Passage)</td><td><strong>83,638</strong> (17.7%), embarked minus disembarked. Documented voyages alone: 16.1% (n = 1,756)</td><td>Medium. Excludes deaths before embarkation and after landing.</td></tr>
+<tr><td>1c</td><td>Landed and sold</td><td><strong>388,743</strong> landed directly from Africa. Practically all were sold on arrival. Add roughly <strong>50,000</strong> reshipped from the Caribbean 1701–75 (O'Malley 2014, as summarized in Klooster's review; partial period).</td><td>Medium. The Caribbean figure is partial and secondary.</td></tr>
+<tr><td>1d</td><td>Domestic (interstate) sales 1790–1860</td><td>About <strong>1 million</strong> forced interstate relocations. This is a widely repeated secondary figure, <strong>not verified here</strong> (see Wikipedia "Slavery in the United States", citing Morgan 2002).</td><td>Low. It is a secondary citation.</td></tr>
+<tr><td>2a</td><td>Enslaved people (and descendants) who lived 1619–1865</td><td><strong>About 10 million</strong> (Hacker 2020). This model counts <strong>181.2 million person-years</strong> of enslavement and <strong>117.8 million worker-years</strong> (at 65% participation).</td><td>Census years are high quality. Colonial years are estimates.</td></tr>
+<tr><td>2b</td><td>Where</td><td>By state (<code>data/processed/enslaved_population_by_state_year.csv</code>). The largest are VA, SC, NC, GA, MD, AL, MS, KY, TN, LA.</td><td>High for 1790–1860 (US Census).</td></tr>
+<tr><td>2c</td><td>What work (1850 snapshot)</td><td>Of 3.20M enslaved in 1850: cotton 1.815M, tobacco 350k, sugar 150k, rice 125k, hemp 60k, cities and towns about 400k, other or unassigned about 304k. These are people <strong>of all ages</strong> (De Bow, <em>Statistical View</em>, p. 94, quoted in Evans 1962).</td><td>Low–medium. De Bow does not give his basis.</td></tr>
+<tr><td>3</td><td>Present value of the labor</td><td><strong>$0.75T</strong> undiscounted (constant 2025 $). <strong>$5.0T at 1% real</strong>, <strong>$37.5T at 2%</strong>, <strong>$332T at 3%</strong> (full table in §5).</td><td>The <em>method</em> is defensible. The <em>rate</em> is a value judgment.</td></tr>
+<tr><td>4</td><td>Land it would buy</td><td>Buyable non-federal land in the 48 contiguous states is worth about <strong>$7.1T</strong> at USDA 2025 farm prices. At <strong>1% real</strong>, the labor value is 71% of that. In the "state where the labor was done" mode, the 10 main slave states are bought out completely. At <strong>≥1.5% real</strong>, the value exceeds all buyable land in the 48 states.</td><td>Medium. The land prices are farm prices, which undervalue urban land (§6).</td></tr>
+<tr><td>5</td><td>Lives lost at sea (separate)</td><td>83,638 deaths × US DOT value of a statistical life $14.2M = <strong>$1.19T</strong>. Alternative, forgone labor: $0.12T at 1%, $27T at 3%.</td><td>A value judgment. Reported separately and never added to item 3.</td></tr></table></div>
+<hr>
+<h2>2. Data sources (all in <code>data/raw/</code>, SHA-256 in <code>data/raw/MANIFEST.json</code>)</h2>
+<div class="tw"><table>
+<tr><th>Source</th><th>What it gives</th><th>File / access</th></tr>
+<tr><td>**SlaveVoyages, Trans-Atlantic Slave Trade Database, <em>Estimates</em>** (Eltis, Richardson et al.; legacy.slavevoyages.org/assessment/estimates). Retrieved 2026-11-12.</td><td>Embarked and disembarked by decade for 5 mainland North America regions</td><td><code>data/manual/slavevoyages_estimates_mainland_na_by_decade.csv</code> (copied from the web form: all flags, 10-year rows, specific disembarkation regions)</td></tr>
+<tr><td>SlaveVoyages voyage-level export <code>tastdb-exp-2019.csv</code></td><td>Cross-check of documented voyages (MJSELIMP1 = 20000, mainland North America)</td><td>fetched by <code>00_fetch.py</code></td></tr>
+<tr><td>**US Census Bureau, <em>Historical Statistics of the US, Colonial Times to 1970</em>, Series Z 1–19**, p. 1168</td><td>"Negro" population by colony, 1630–1780</td><td>Scanned PDF. Hand-transcribed to <code>data/manual/hsus_colonial_Z1-19_negro_population.csv</code>. <strong>Every column sums exactly to the printed total.</strong></td></tr>
+<tr><td><strong>US Census 1790–1860</strong> slave population by state (primary: 1850 Census, <em>Statistical View</em> ch. V; 1860 <em>Population</em> volume, introduction)</td><td>Enslaved people by state and census year</td><td>The Wikipedia table transcribing these (revision 1382810880) is parsed. The 1860 total of 3,953,760 matches the census.</td></tr>
+<tr><td><strong>MeasuringWorth</strong>: Officer &amp; Williamson, <em>Annual Wages in the United States, 1774–Present</em>; Williamson, <em>The Annual CPI for the US, 1774–Present</em></td><td>Index of unskilled labor costs (1860 = 100, 1774–1940); production-worker hourly pay ($, 1790–); CPI (1982–84 = 100)</td><td><code>mw_uswage.html</code>, <code>mw_uscpi.html</code></td></tr>
+<tr><td>**USDA NASS, <em>Land Values 2025 Summary</em>** (Aug 2025)</td><td>Farm real estate $/acre by state, 2025 (48 states; no AK or HI)</td><td><code>land0825.txt</code></td></tr>
+<tr><td>**USDA NASS, <em>2022 Census of Agriculture</em>, Vol. 1, US/State, Table 45**</td><td>Land in farms by the operation's legal status for tax purposes, by state</td><td><code>coa2022_usv1.txt</code></td></tr>
+<tr><td>**Congressional Research Service, R42346, <em>Federal Land Ownership: Overview and Data</em>, Table 1**</td><td>Total and federal acreage by state, as of 2024-09-30 (five agencies)</td><td><code>crs_R42346_federal_land_ownership.html</code></td></tr>
+<tr><td>**US DOT, <em>Departmental Guidance on Valuation of a Statistical Life</em>**</td><td>VSL = $14.2M for 2025 analyses</td><td>value in <code>scripts/params.json</code> (from the DOT guidance page)</td></tr>
+<tr><td>us-atlas 3.0.1 (Census cartographic boundaries 1:10m, Albers USA)</td><td>State outlines for the map</td><td><code>us-atlas_states-albers-10m.json</code></td></tr></table></div>
+<p>Literature used for checks and context: Craemer, T. (2015), "Estimating Slavery Reparations: Present Value Comparisons of Historical Multigenerational Reparations Policies," <em>Social Science Quarterly</em> 96(2): 639–655. Hacker, J. D. (2020), "From '20. and odd' to 10 million: the growth of the slave population in the United States," <em>Slavery &amp; Abolition</em> 41(4): 840–855. Evans, R. (1962), "The Economics of American Negro Slavery," in <em>Aspects of Labor Economics</em>, NBER, pp. 185–256. O'Malley, G. (2014), <em>Final Passages: The Intercolonial Slave Trade of British America, 1619–1807</em>.</p>
+<hr>
+<h2>3. Method</h2>
+<p><strong>Labor value.</strong> For state <em>s</em> and year <em>y</em>:</p>
+<pre><code>V(s,y) = Enslaved(s,y) × participation × hours/yr × w_real(y) × wage_multiplier × (1 − maintenance_share)
+PV(r)  = Σ_s Σ_y V(s,y) × (1 + r)^(2025 − y)</code></pre>
+<ul><li><code>Enslaved(s,y)</code> combines colonial estimates for 1630–1780 and census counts for 1790–1860, linearly interpolated year by year. Virginia is set to 20 for 1619–1620. 1861–1865 holds the 1860 count.</li><li><code>w_real(y)</code> is the hourly wage of unskilled free labor, in 2025 dollars. MeasuringWorth's unskilled-labor index is converted to dollars per hour using the average ratio of production-worker pay to the index over 1850–1870 (k = $0.000777 per index point, which gives <strong>$0.078/hr nominal in 1860</strong>). It is then deflated with MeasuringWorth's CPI. Before 1774 there is no series, so the 1774 real wage is held constant.</li><li>The result: <strong>1860 real wage ≈ $3.11/hr (2025 $)</strong>, or about $9,300 a year at 3,000 hours.</li><li><code>r</code> is a <strong>real</strong> (inflation-adjusted) rate, because the values are already in constant dollars.</li></ul>
+<p><strong>Validation against the literature.</strong> Rebuilding Craemer's construction with these inputs (1776–1865, nominal wages compounded at 3% to 2009) gives <strong>$3.9T</strong>, against his published <strong>$5.9–14.2T</strong>. Same order of magnitude, a little lower, consistent with this model's lower wage and participation assumptions. Note that a 3% <em>nominal</em> rate on nominal wages is roughly a 1.5% <em>real</em> rate. That is why the "real 3%" result here ($332T) is so much larger than Craemer's.</p>
+<p><strong>Land purchase</strong> (per state, value V to spend):</p>
+<ol><li><strong>Purchasable land</strong> = non-federal acres (CRS) split into four tiers, bought in this order:</li><li>Non-family corporate farmland</li><li>Partnerships and family-held corporations</li><li>Family or individual farms</li><li>Other non-federal land: non-federal acres minus land in farms. This includes state, municipal, urban and forest land.</li><li><strong>Excluded:</strong> federal land, and farmland under "Other: estate or trust, prison farm, grazing association, American Indian Reservation", so tribal land is never "bought".</li><li><strong>Price:</strong> USDA 2025 farm real estate $/acre for every tier (§6). The cost is acres bought × price. Value beyond the state's purchasable land is reported as <strong>unspent</strong>.</li><li><strong>Two allocation modes:</strong></li><li><em>State where the labor was done</em>: each state's share of the present value buys land in that state.</li><li><em>All states, same share</em>: the national present value buys the same fraction of every contiguous state's purchasable land.</li></ol>
+<p><strong>Lives lost (item 5).</strong> Deaths = embarked − disembarked, by decade. Two separate methods:</p>
+<ul><li>(a) Deaths × VSL. The VSL is already a present-day value, so it is not compounded.</li><li>(b) Forgone labor: each person who died is credited with 30 years of the same hourly labor value from the decade's midpoint, capped at 1865, and compounded at r.</li></ul>
+<p>Neither is added to the labor total, and descendants who were never born are not counted.</p>
+<hr>
+<h2>4. Assumptions (all live in <code>scripts/params.json</code>)</h2>
+<div class="tw"><table>
+<tr><th>ID</th><th>Assumption</th><th>Value</th><th>Why / range tested</th></tr>
+<tr><td>A1</td><td>Share of the enslaved population doing productive labor</td><td>0.65</td><td>Excludes young children and the very old. Band 0.55–0.75. Not taken from a single source.</td></tr>
+<tr><td>A2</td><td>Hours per worker per year</td><td>3,000</td><td>Roughly 10–11 h × 280–300 days. Band 2,500–3,500. An assumption, not a sourced figure.</td></tr>
+<tr><td>A3</td><td>1861–1865 population</td><td>held at 1860</td><td>War-time emancipation was gradual; this slightly overstates 1863–65.</td></tr>
+<tr><td>A4</td><td>Wage benchmark</td><td>unskilled free labor (MeasuringWorth) × 1.0</td><td>Skilled, domestic and artisan work would be worth more; field labor in the South was often paid less.</td></tr>
+<tr><td>A5</td><td>Pre-1774 wage</td><td>held at the 1774 real level</td><td>No US series exists. Matters a lot at high rates, because early years compound longest.</td></tr>
+<tr><td>A6</td><td>Maintenance deduction</td><td>0%</td><td>The brief values the labor itself. Setting it to, e.g., 0.3–0.5 scales every result proportionally.</td></tr>
+<tr><td>A7</td><td>Colonial "Negro" population = enslaved</td><td>upper bound</td><td>Includes a small free Black population before 1780.</td></tr>
+<tr><td>A8</td><td>Colonial-to-state mapping</td><td>colony → modern state</td><td>Kentucky and Tennessee are taken from their own HSUS rows. Maine 1790–1820 is 0 (reported under Massachusetts).</td></tr>
+<tr><td>A9</td><td>Farmland withheld by USDA "(D)"</td><td>the residual (land in farms minus disclosed categories) split in proportion to US shares</td><td>Affects AK, NH, RI (flagged in the data and the tooltips).</td></tr>
+<tr><td>A10</td><td>Land price</td><td>2025 farm real estate $/acre (includes buildings) for all purchasable land</td><td>See §6.</td></tr>
+<tr><td>A11</td><td>Base year</td><td>2025 (latest full year of CPI)</td><td>—</td></tr>
+<tr><td>A12</td><td>Census "All States" 1790 = 694,207 excludes the Southwest Territory (Tennessee, 3,417); this model includes it</td><td>+3,417</td><td>—</td></tr></table></div>
+<hr>
+<h2>5. Sensitivity to the interest rate (the dominant assumption)</h2>
+<p>Present value of the labor, in 2025 dollars. The band varies A1 and A2 together.</p>
+<div class="tw"><table>
+<tr><th>Real rate</th><th>PV of labor</th><th>Band</th><th>÷ buyable land in the 48 states ($7.1T)</th></tr>
+<tr><td>0%</td><td>$0.75T</td><td>$0.53–1.01T</td><td>11%</td></tr>
+<tr><td>0.5%</td><td>$1.93T</td><td>$1.36–2.60T</td><td>27%</td></tr>
+<tr><td>1%</td><td>$5.05T</td><td>$3.56–6.79T</td><td>71%</td></tr>
+<tr><td>1.5%</td><td>$13.5T</td><td>$9.5–18.2T</td><td>1.9×</td></tr>
+<tr><td>2%</td><td>$37.5T</td><td>$26.4–50.5T</td><td>5.3×</td></tr>
+<tr><td>2.5%</td><td>$109T</td><td>$77–146T</td><td>15×</td></tr>
+<tr><td>3%</td><td>$332T</td><td>$234–447T</td><td>47×</td></tr>
+<tr><td>4%</td><td>$3,795T</td><td>—</td><td>537×</td></tr>
+<tr><td>5%</td><td>$57,816T</td><td>—</td><td>8,182×</td></tr>
+<tr><td>6%</td><td>$1.12 quintillion</td><td>—</td><td>158,498×</td></tr></table></div>
+<p>Each extra point of real interest multiplies the result by about 7× (at low rates) up to about 20× (at high rates). That is because labor from 1700 compounds for 325 years.</p>
+<p><strong>Which rate is defensible?</strong></p>
+<ul><li>Long-run real returns on safe assets (government debt) have historically been around 0–3%.</li><li>Real equity returns have been around 5–7%. Applying them over 200–400 years produces sums far larger than all the world's wealth. That is a property of compounding, not a finding.</li><li><strong>This project does not pick a single rate.</strong> It shows the whole range. The visualization defaults to 3% only because Craemer's widely cited work uses 3% (nominal).</li></ul>
+<hr>
+<h2>6. Known limitations, stated plainly</h2>
+<ol><li><strong>Land prices.</strong> USDA prices <em>farm</em> real estate. Urban and suburban land costs far more per acre, so "% of state land" is overstated where land is urban, and the cost is understated. There is no consistent statewide market price for all land types. The FHFA/AEI county land-value data cover residential land only.</li><li><strong>Corporate vs family farms.</strong> The Census of Agriculture classifies <em>operations</em>, not <em>owners</em>. About 39% of farmland is rented, often from non-operator landlords, including investors and trusts. "Non-family corporations" hold only <strong>16.6M of 880M farm acres (1.9%)</strong> nationally. So "take from corporations first" runs out almost immediately, and most of the purchase falls on family-run operations and other land. USDA's only owner-level survey (TOTAL, 2014) is outdated.</li><li><strong>Sectors.</strong> The crop split is a national 1850 snapshot of people of all ages, with no stated basis. It is not a state-by-state or year-by-year allocation of labor value. A better version would use 1860 Census of Agriculture crop output by county.</li><li><strong>Colonial counts</strong> are HSUS estimates (decennial, rounded), not censuses.</li><li><strong>Middle Passage</strong> figures cover deaths on board only. Deaths during capture, overland marches and coastal holding in Africa are much larger and not counted.</li><li><strong>Free Black people</strong> are excluded from the census years (enslaved counts only) but included in the colonial years (A7).</li><li><strong>Not modeled:</strong> stolen wages after 1865 (convict leasing, sharecropping), Jim Crow-era losses, and the value of the people as "capital" (slave prices). Each would be a separate study.</li></ol>
+<hr>
+<h2>7. Verification</h2>
+<ul><li>Every cited number, and where and how it was checked, is listed in <code>data/manual/source_verification_log.csv</code>.</li><li><code>scripts/03_qa.py</code> re-runs the checks every time and writes <a href="QA_REPORT.html">QA_REPORT.md</a>. It covers:</li><li>source checksums</li><li>transcription totals</li><li>cross-source agreement, including official 1860-census decade totals, CRS state sums, the NASS US average, and SlaveVoyages estimates vs documented voyages</li><li>literature figures re-found in the saved sources</li><li>model unit and totals invariants, and an independent recomputation of the present value</li><li>land-purchase invariants</li><li>one-at-a-time sensitivity runs</li><li>The run exits non-zero if any check fails.</li><li>Two cited figures are flagged as partial or unverified (the ~1M interstate sales; the ~50k reshipped from the Caribbean). They are used for context only, never in a calculation.</li><li>The US DOT VSL page blocks scripts, so it was verified by hand in a browser (logged as MANUAL).</li></ul>
+<h2>8. Reproduce</h2>
+<pre><code>python3 scripts/run_all.py            # fetch (skips existing) → parse → model → QA → .md→.html
+python3 scripts/capture_images.py     # optional: refresh images/ with headless Edge/Chromium</code></pre>
+<p>Then open <code>index.html</code> (double-click; three.js r147 is bundled in <code>lib/three/</code>). Requires Python 3.10+. Optional <code>pypdf</code> enables QA check L3.</p>
+</body></html>

@@ -1,0 +1,103 @@
+{
+  "land0825.txt": {
+    "url": "https://esmis.nal.usda.gov/sites/default/release-files/pn89d6567/2n49w148w/1g05hb655/land0825.txt",
+    "post": null,
+    "description": "USDA NASS, Land Values 2025 Summary (Aug 2025): farm real estate $/acre by state",
+    "bytes": 52313,
+    "sha256": "54e7fec01de2c1390816d4472ef89f2911b2a4effd92e732fef469237f3b065e"
+  },
+  "coa2022_usv1.txt": {
+    "url": "https://www.nass.usda.gov/sites/default/files/publications/agcensus/2022/Full_Report/Volume_1,_Chapter_2_US_State_Level/usv1.txt",
+    "post": null,
+    "description": "USDA NASS, 2022 Census of Agriculture, Vol. 1 Ch. 2 (US & State), full text; Table 45 legal status by state",
+    "bytes": 12028129,
+    "sha256": "7a80952852eda6aebc6e80c9574717a9b0217e224106432859afa7b2a9df3f04"
+  },
+  "crs_R42346_federal_land_ownership.html": {
+    "url": "https://www.everycrsreport.com/reports/R42346.html",
+    "post": null,
+    "description": "Congressional Research Service R42346, Federal Land Ownership: Overview and Data (Table 1, acreage as of 2024-09-30)",
+    "bytes": 200159,
+    "sha256": "81a1d84df118dcb79646ae4d2effe77408990627867391cb5d38db8ccb626c61"
+  },
+  "wikipedia_slavery_in_the_united_states_rev1382810880.wikitext": {
+    "url": "https://en.wikipedia.org/w/index.php?title=Slavery_in_the_United_States&action=raw&oldid=1382810880",
+    "post": null,
+    "description": "Wikipedia transcription of US Census slave population by state 1790-1860 (primary: 1850 Compendium ch. V; 1860 Population vol.)",
+    "bytes": 370405,
+    "sha256": "8384b414e7bb81086f340d977887afb6818eb8aef44e5a55a735ee1cef394485"
+  },
+  "tastdb-exp-2019.csv": {
+    "url": "https://legacy.slavevoyages.org/documents/download/tastdb-exp-2019.csv",
+    "post": null,
+    "description": "SlaveVoyages Trans-Atlantic Slave Trade Database, voyage-level 2019 export (documented voyages; used as cross-check)",
+    "bytes": 22182700,
+    "sha256": "3fbad142356e30a4662c7f455321d19b70d79770cfa0397278894bb9ae36096f"
+  },
+  "hsus_colonial_chZ.pdf": {
+    "url": "https://www2.census.gov/library/publications/1975/compendia/hist_stats_colonial-1970/hist_stats_colonial-1970p2-chZ.pdf",
+    "post": null,
+    "description": "Historical Statistics of the US, Colonial Times to 1970, ch. Z (scan; Series Z 1-19 p.1168)",
+    "bytes": 5044484,
+    "sha256": "a88d14e51c0bd85b41f02f677974901d5c6c495a7f546e66be2a7a814600b4b1"
+  },
+  "mw_uswage.html": {
+    "url": "https://www.measuringworth.com/datasets/uswage/result.php",
+    "post": {
+      "use[]": [
+        "UNSKILLED",
+        "MANCOMP"
+      ],
+      "year_source": "1774",
+      "year_result": "2025"
+    },
+    "description": "MeasuringWorth: Officer & Williamson, Annual Wages in the US (unskilled index 1860=100; production worker hourly comp)",
+    "bytes": 24274,
+    "sha256": "c19bda2f33fd25033a206a0ae0d62c85a1e883a036d958dc9cd7bdc526486ab5"
+  },
+  "mw_uscpi.html": {
+    "url": "https://www.measuringworth.com/datasets/uscpi/result.php",
+    "post": {
+      "year_source": "1774",
+      "year_result": "2025"
+    },
+    "description": "MeasuringWorth: Williamson, The Annual Consumer Price Index for the US, 1774-present (1982-84=100)",
+    "bytes": 21130,
+    "sha256": "6ecd5fb53bccf98835de1b4264f1742dd9f18c4bf4d6e0fe46bd949a076cfba3"
+  },
+  "census1860_slaves_intro.pdf": {
+    "url": "https://www2.census.gov/library/publications/decennial/1860/population/1860a-02.pdf",
+    "post": null,
+    "description": "1860 Census, Population volume introduction (scan); p. viii 'Census of slaves and free colored'",
+    "bytes": 8091995,
+    "sha256": "118e180011d9b698b33e918ea526e736e1b2c01c270c11a27ac5c82870666f53"
+  },
+  "craemer2015_repec.html": {
+    "url": "https://ideas.repec.org/a/bla/socsci/v96y2015i2p639-655.html",
+    "post": null,
+    "description": "Craemer (2015) Social Science Quarterly 96(2) abstract (RePEc)",
+    "bytes": 40902,
+    "sha256": "9ba355e72616b297ccd4ec423b6d96447f88326b3f4006711c284405f4564ad2"
+  },
+  "hacker2020_pmc.html": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7716878/",
+    "post": null,
+    "description": "Hacker (2020) Slavery & Abolition 41(4), full text (PMC7716878)",
+    "bytes": 174542,
+    "sha256": "4e410988f41e72575114d419f026838b4e39259c197af2e592b3b27b63b4c08d"
+  },
+  "nber_c0606_evans1962.pdf": {
+    "url": "https://www.nber.org/system/files/chapters/c0606/c0606.pdf",
+    "post": null,
+    "description": "Evans (1962) 'The Economics of American Negro Slavery', NBER; p.188 fn.4 quotes De Bow 1850 occupation counts",
+    "bytes": 1253175,
+    "sha256": "13557535daa53bb166e60e9bb0d8960f8ebad0493b8b3156f0231bf5fc6dca31"
+  },
+  "us-atlas_states-albers-10m.json": {
+    "url": "https://cdn.jsdelivr.net/npm/us-atlas@3.0.1/states-albers-10m.json",
+    "post": null,
+    "description": "us-atlas 3.0.1 (Census cartographic boundary 1:10m, Albers USA projected TopoJSON) for the map",
+    "bytes": 82031,
+    "sha256": "6e7bb086a3c791490361968a3094f377f7726c5d0c4900fec03cc42db2305a3d"
+  }
+}
